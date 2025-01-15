@@ -5,6 +5,23 @@
 - O fisco refere-se ao conjunto de órgãos e entidades governamentais responsáveis pela administração tributária e arrecadação de impostos, taxas e contribuições. 
 - É também associado ao poder público na fiscalização e controle de obrigações fiscais dos contribuintes.
 
+## Regime Fiscal
+
+- Regime Fiscal é o conjunto de regras, princípios e normas que definem como um governo administra suas receitas, despesas, endividamento e controle financeiro. 
+- Ele estabelece os limites e critérios para a arrecadação de tributos, alocação de recursos e gestão da dívida pública, visando equilibrar as contas públicas e promover a sustentabilidade econômica. 
+- Exemplos de regimes fiscais incluem o regime de responsabilidade fiscal e o regime tributário simplificado.
+
+## Código Tributário Nacional
+
+- O Código Tributário Nacional (CTN) é a lei que regula o sistema tributário brasileiro, definindo normas gerais sobre a tributação, competência dos entes federativos (União, estados, municípios e DF), obrigações tributárias e direitos dos contribuintes.
+- Principais Aspectos:
+    - Fato Gerador: Define os eventos que geram a obrigação tributária.
+    - Tributos: Disciplina impostos, taxas, contribuições de melhoria e outros.
+    - Competências: Estabelece quais tributos podem ser cobrados por cada ente.
+    - Garantias e Direitos: Protege o contribuinte contra abusos do fisco.
+    - Sanções: Regula multas e penalidades tributárias.
+- O CTN é essencial para a uniformidade e segurança jurídica no sistema tributário brasileiro.
+
 ## Tributo
 
 - Tributo é uma obrigação financeira imposta por lei aos cidadãos e empresas, exigida pelo Estado ou por outras entidades públicas. 
@@ -46,22 +63,6 @@
     - Variabilidade: A base de cálculo pode variar dependendo do tipo de operação, da natureza do tributo, e da legislação fiscal aplicável.
     - Incorporação de Elementos: Alguns tributos podem incluir outros elementos além do valor da operação, como custos adicionais, frete, ou impostos anteriores.
 
-## Fato Gerador
-
-- O fato gerador é o evento ou situação prevista em lei que dá origem à obrigação de pagar um tributo. 
-- É o momento em que se configura a ocorrência da hipótese tributária, definindo que o contribuinte deve recolher o imposto.
-- Exemplos:
-    - IPI: O fato gerador ocorre na saída de um produto industrializado da fábrica ou na importação.
-    - ICMS: Acontece na circulação de mercadorias ou na prestação de serviços de transporte interestadual e intermunicipal.
-    - IR (Imposto de Renda): Ocorre no recebimento de rendimentos tributáveis por uma pessoa física ou jurídica.
-- Em resumo, o fato gerador é o evento que torna a cobrança do tributo juridicamente exigível.
-
-## Regime Fiscal
-
-- Regime Fiscal é o conjunto de regras, princípios e normas que definem como um governo administra suas receitas, despesas, endividamento e controle financeiro. 
-- Ele estabelece os limites e critérios para a arrecadação de tributos, alocação de recursos e gestão da dívida pública, visando equilibrar as contas públicas e promover a sustentabilidade econômica. 
-- Exemplos de regimes fiscais incluem o regime de responsabilidade fiscal e o regime tributário simplificado.
-
 ## Alíquota
 
 - Alíquotas são as **taxas** ou percentuais aplicados sobre a **base de cálculo de um tributo**, definindo o valor a ser pago. 
@@ -95,6 +96,170 @@
         - A alíquota aumenta conforme o valor da base de cálculo.
         - Exemplo: Imposto de Renda de Pessoas Físicas (IRPF), que possui alíquotas progressivas.
 
+## Fato Gerador
+
+- O fato gerador é o evento ou situação prevista em lei que dá origem à obrigação de pagar um tributo. 
+- É o momento em que se configura a ocorrência da hipótese tributária, definindo que o contribuinte deve recolher o imposto.
+- Exemplos:
+    - IPI: O fato gerador ocorre na saída de um produto industrializado da fábrica ou na importação.
+    - ICMS: Acontece na circulação de mercadorias ou na prestação de serviços de transporte interestadual e intermunicipal.
+    - IR (Imposto de Renda): Ocorre no recebimento de rendimentos tributáveis por uma pessoa física ou jurídica.
+- Em resumo, o fato gerador é o evento que torna a cobrança do tributo juridicamente exigível.
+
+## Passivos tributários
+
+- Passivos tributários são as obrigações financeiras devidas por uma pessoa física ou jurídica ao fisco, decorrentes de tributos apurados e não pagos dentro do prazo estabelecido.
+- Características Principais:
+    - Origem: Surge da obrigação de pagar impostos, taxas ou contribuições geradas por atividades econômicas ou eventos tributáveis.
+- Classificação:
+    - Corrente: Devido a curto prazo (ex.: impostos mensais).
+    - Não Corrente: Devido a longo prazo (ex.: parcelamentos tributários).
+- Consequências: O não pagamento pode gerar multas, juros, execução fiscal e inscrição em dívida ativa.
+- Os passivos tributários são elementos críticos na gestão financeira de empresas e indivíduos, impactando diretamente a saúde econômica e o compliance fiscal.
+
+## Sujeitos ativos e passivos
+
+- Os sujeitos ativos e passivos são os principais envolvidos na relação jurídica tributária:
+    - Sujeito Ativo:
+        - É a entidade pública (União, estados, municípios ou Distrito Federal) que detém o direito de exigir o tributo.
+        - Representa o fisco, responsável pela arrecadação e fiscalização dos tributos.
+    - Sujeito Passivo:
+        - É o contribuinte ou responsável tributário, que tem a obrigação de pagar o tributo.
+        - Pode ser:
+            - Contribuinte Direto: Quem realiza o fato gerador (ex.: quem presta um serviço sujeito ao ISS).
+            - Responsável Tributário: Quem não realiza o fato gerador, mas assume o pagamento do tributo (ex.: substituto tributário).
+- Esses conceitos definem as partes na relação tributária e suas respectivas obrigações e direitos.
+
+## Crédito Tributário
+
+- É um valor que os sujeitos ativos da obrigação tributária podem exigir dos sujeitos passivos a partir da ocorrência de um determinado fato gerador"
+- Crédito tributário é um valor que os sujeitos ativos da obrigação tributária podem exigir dos sujeitos passivos (contribuintes) a partir da ocorrência de um determinado fato gerador. 
+- Ele é constituído a partir de três fatores: a previsão legal, o fato gerador e o lançamento tributário.
+- O crédito tributário é o valor que o contribuinte tem a obrigação de pagar ao fisco em decorrência da ocorrência do fato gerador de um tributo. 
+- Ele é formalizado pelo lançamento tributário, que apura e constitui o crédito, tornando-o exigível.
+- O crédito tributário é fundamental para a arrecadação de tributos e para o funcionamento das finanças públicas.
+- Principais características:
+    - Origem: Surge quando o fato gerador de um tributo ocorre (ex.: venda de mercadorias, prestação de serviços, etc.).
+    - Finalidade: Representa o direito do Estado de arrecadar e a obrigação do contribuinte de pagar.
+    - Extinção: Pode ser encerrado por meio de pagamento, compensação, isenção, prescrição ou remissão.
+
+## Domicílio Tributário
+
+- .
+
+
+## Lançamento Tributário
+
+- .
+
+## Capacidade Contributiva
+
+- .
+
+## Princípio da Anterioridade
+
+- .
+
+## Princípio da Legalidade Tributária
+
+- .
+
+## Princípio da Isonomia Tributária
+
+- .
+
+## Substituição Tributária
+
+- .
+
+## Responsabilidade Tributária
+
+- .
+
+## Regime de Competência e Caixa
+
+- .
+
+## Regime Monofásico
+
+- .
+
+## Regime Cumulativo e Não Cumulativo
+
+- .
+
+## Restituição Tributária
+
+- .
+
+## Compensação Tributária
+
+- .
+
+## Auto de Infração Tributária
+
+- .
+
+## Certidão Negativa de Débitos (CND)
+
+- .
+
+## Transação Tributária
+
+- .
+
+## Execução Fiscal
+
+- .
+
+## Planejamento Tributário
+
+- .
+
+## Elisão Fiscal e Evasão Fiscal
+
+- .
+
+## Base Tributável
+
+- .
+
+## Apuração de Tributos
+
+- .
+
+## Imunidade Tributária
+
+- .
+
+## Isenção Tributária
+
+- .
+
+## Suspensão do Crédito Tributário
+
+- .
+
+## Prescrição e Decadência Tributária
+
+- .
+
+## Incentivos Fiscais
+
+- .
+
+## Zona Franca e Regimes Especiais
+
+- .
+
+## Cumulatividade Tributária
+
+- .
+
+## Incidência Tributária
+
+- .
+
 ## Simples Nacional
 
 - O Simples Nacional é um regime tributário simplificado para microempresas (ME) e empresas de pequeno porte (EPP) no Brasil, criado para unificar e facilitar o recolhimento de impostos. 
@@ -112,7 +277,6 @@
     - Restrições para algumas atividades econômicas (ex.: instituições financeiras).
     - Perda de benefícios ao ultrapassar o limite de receita.
 O Simples Nacional foi criado para estimular o empreendedorismo e a competitividade de pequenas empresas no mercado.
-
 
 # *Tributos*
 
@@ -244,5 +408,32 @@ O Simples Nacional foi criado para estimular o empreendedorismo e a competitivid
 
 ## IBS - Imposto sobre bens e serviços
 
+- O IBS (Imposto sobre Bens e Serviços) é um dos novos tributos criados pela Reforma Tributária no Brasil para substituir o ICMS e o ISS. 
+- Ele tem como objetivo unificar a tributação sobre o consumo em nível estadual e municipal, simplificando o sistema tributário e aumentando a eficiência na arrecadação.
+- O IBS é um passo importante para modernizar e tornar mais justo o sistema de tributação sobre o consumo no Brasil.
+- Principais Características:
+    - Unificação de Tributos:
+        - Substitui o ICMS (imposto estadual) e o ISS (imposto municipal).
+    - Base de Incidência:
+        - Aplica-se a bens e serviços em geral, com alíquota uniforme para todos os produtos e serviços, mas com arrecadação destinada aos estados e municípios.
+    - Modelo de IVA (Imposto sobre Valor Adicionado):
+        - Calculado com base no valor agregado em cada etapa da cadeia produtiva, permitindo créditos tributários para evitar a cumulatividade.
+- Vantagens:
+    - Simplificação do sistema tributário.
+    - Redução da guerra fiscal entre estados e municípios.
+    - Garantia de maior transparência na tributação.
+- Desafios:
+    - Transição gradual do modelo atual para o novo sistema.
+    - Harmonização das alíquotas entre estados e municípios.
+
 ## IS - Imposto Seletivo
 
+- O Imposto Seletivo (IS) é um tributo criado pela Reforma Tributária no Brasil para incidir sobre bens e serviços considerados nocivos à saúde ou ao meio ambiente, como cigarros, bebidas alcoólicas e combustíveis fósseis.
+- O IS complementa o sistema tributário reformado, promovendo justiça social e sustentabilidade.
+- Características Principais:
+    - Objetivo: 
+        - Desestimular o consumo de produtos com impactos negativos para a sociedade.
+    - Incidência: 
+        - Focado em produtos específicos, com alíquotas diferenciadas.
+    - Finalidade: 
+        - Além de arrecadar, tem um caráter regulatório.

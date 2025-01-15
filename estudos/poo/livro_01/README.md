@@ -748,10 +748,39 @@ class Classe1 : IUm, IDois
     - Coleções: listas, conjuntos (evita repetições), mapa (usa chave/valor, acesso mais rápido que listas)
     - O símbolo `<T>` nas coleções é para permitir o uso de generics, que não é um conceito pertencente à OO, mas é útil
         - Ao parametrizar uma coleção com genérics, significa que ela só aceitará o tipo definido nessa parametrização.
+- Sobrescreva os métodos `Equals`, `Hashcode` e `ToString`
+    - É uma forma de evitar resultados indesejados
+- As vezes é preferível associar do que herdar
+    - A verdadeira função da herança é criar subtipos.
+    - Podemos ter reúso sem ter herança: chamando métodos, por exemplo.
+    - Um carrinho de compras não pode herdar da classe list, pois ele não é uma lista. Ele precisa de uma lista
+    - Herança: relação do tipo "é um"
+    - Associação: relação do tipo "usa um"
+    - Impedir que classe seja herdada: palavra reservada `sealed` - ex de uso: classe `String`
+        - `public sealed class ...`
+        - Usar sempre que a aplicação possuir classes que representam determinados conceitos que já são o fim da hierarquia de classes
+        - ou em um método: `public sealed void NomeMetodo() ...`
+- Se preocupe com o encapsulamento
+    - Aplicações mal projetadas geram uma grande dependência entre as suas classes, pois os métodos não realizam bem a tarefa de esconder as suas complexidades de implementação e atributos acabam sendo acessados diretamente
+    - Dicas
+        - Defina as visibilidades de forma adequada
+            - Via de regra todas as classes são públicas
+            - Atributos devem ser sempre privados para ocultar a informação e encapsular o estado interno do objeto
+                - exceções: expor constantes, atributos de interface (públicos por padrão), 
+            - Métodos devem ser públicos por padrão
+                - Métodos privados devem ser usados apenas para organizar a codificação interna da classe
+        - Cuidado com gets e sets
+            - Quebram facilmente o encapsulamento. Um set quebra a blindagem do estado interno do objeto
+            - Para substituir o set, faça sobrecargas do construtor, provendo o estado uma única vez e eliminando a necessidade do uso do set.
+            - Para substituir o get, faça métodos de negócio: 
+                - Não exponha diretamente o valor do atributo para depois fazer um procedimento com ele. O melhor é disponibilizar tal procedimento.
+                - Procedimento: "Tell, don't ask". (diga, não pergunte) - Quanto menos encapsulado é um código, menos pergunta se faz.
+                    - Ex.: é ruim ter que verificar se a data de pagamento é != null para verificar se o pagamento foi realizado!!
+
 
 # *Continuar em*
 
-- pag 206
+- pag 219
 
 # Exercícios
 
