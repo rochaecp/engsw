@@ -776,11 +776,36 @@ class Classe1 : IUm, IDois
                 - Não exponha diretamente o valor do atributo para depois fazer um procedimento com ele. O melhor é disponibilizar tal procedimento.
                 - Procedimento: "Tell, don't ask". (diga, não pergunte) - Quanto menos encapsulado é um código, menos pergunta se faz.
                     - Ex.: é ruim ter que verificar se a data de pagamento é != null para verificar se o pagamento foi realizado!!
+        - Uso de classes imutáveis
+            - Blindam por completo o estado de um objeto impedindo que ele mude após a sua criação.
+            - Úteis em programação concorrente, onde vários "programas" precisam acessar o mesmo objeto
+            - Dicas para criar classes imutáveis
+                - Não criar os métodos set, preferir usar construtores com parâmetros
+                - Tornar a classe `sealed`
+                - Declarar que os atributos sejam `private` e `readonly`
+- Saiba utilizar interfaces e classes abstratas no momento certo
+    - Classe Abstrata
+        - Classe que serve de molde para outras classes.
+        - É a implementação direta do conceito de abstração e devido a isso não pode ser instanciada.
+        - Pode possuir métodos abstratos e não abstratos.
+    - Interface
+        - É a definição de um contrato, uma obrigatoriedade de implementação dos serviços providos.
+        - Provê somente as assinaturas dos métodos, deixando para quem implementa tal interface prover o comportamento desses métodos.
+        - Por padrão todos os seus métodos devem ser públicos e abstratos.
+    - Interfaces podem ser utilizadas para emular herança múltipla, porém isso pode gerar acoplamentos.
+        - Ex.: adicionar um novo método na interface faz com que todas as classes que a implementam precisem implementar esse método.
+    - Interfaces são menos flexíveis do que classes abstratas
+- Classes curinga são difíceis de manter
+    - São classes que possuem mais de uma responsabilidade, ou seja, representam mais de um conceito.
+    - Possuem baixa coesão e são difíceis de manter
+    - Ex.: classe pessoa que visa tratar de pessoa física e de pessoa jurídica ao mesmo tempo (ela teria tanto cpf quanto cnpj e isso é ruim). 
+        - Solução: criar uma classe abstrata Pessoa com atributos comuns (nome, etc) e fazer PessoaFisica (com cpf) e PessoaJuridica (com cnpj) derivar dela
+- É uma má prática usar interfaces para armazenar constantes (Constant Interface Pattern)
+    - Solução: usar uma Enum
 
+# *Continuar em* 
 
-# *Continuar em*
-
-- pag 219
+- pag 226
 
 # Exercícios
 
