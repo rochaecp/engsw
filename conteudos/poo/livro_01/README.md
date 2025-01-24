@@ -802,10 +802,31 @@ class Classe1 : IUm, IDois
         - Solução: criar uma classe abstrata Pessoa com atributos comuns (nome, etc) e fazer PessoaFisica (com cpf) e PessoaJuridica (com cnpj) derivar dela
 - É uma má prática usar interfaces para armazenar constantes (Constant Interface Pattern)
     - Solução: usar uma Enum
+- Conheça e utilize as convenções (boas práticas) de condificação da linguagem escolhida
+    - Nomes de métodos
+    - Nomes de classes e interfaces
+    - Nome de constantes
+
+## O que vem depois da OO
+
+- Livro: Padrões de Projeto: soluções reutilizáveis de software orientado a objetos, de Erich Gamma, JV, RJ e RH (2000)
+    - "Gangue dos quatro"
+    - Um padrão de projeto é (segundo o livro)
+        - "Descreve um problema no nosso ambiente e o cerne de sua solução, de tal forma que você possa usar essa solução mais de um milhão de vezes, sem nunca fazê-lo da mesma maneira".
+    - Categorias de Padrões
+        - Criação
+            - gerenciar a instanciação de objetos
+        - Estrutural
+            - gerenciar como classes e objetos se relacionam para criar novas classes e objetos
+        - Comportamentais
+            - gerenciar algoritmos e comunicações entre classes e objetos
+    - Linguagem utilizada: Smalltalk, mas podem ser implementados em C#, Java, etc
+
+- Refatoração    
 
 # *Continuar em* 
 
-- pag 226
+- pag 236
 
 # Exercícios
 

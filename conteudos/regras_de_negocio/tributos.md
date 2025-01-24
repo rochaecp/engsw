@@ -145,20 +145,67 @@
 
 ## Domicílio Tributário
 
-- .
-
+- O domicílio tributário é o local definido para fins de cumprimento das obrigações tributárias de uma pessoa física ou jurídica, como pagamento de tributos e recebimento de notificações fiscais. 
+- Ele pode ser:
+    - Regra Geral:
+        - Pessoa Física: O local de residência habitual.
+        - Pessoa Jurídica: O local onde está situada sua sede ou estabelecimento principal.
+    - Escolha pelo Contribuinte:
+        - O contribuinte pode optar por outro local como domicílio tributário, desde que informado à administração tributária e aceito por ela.
+    - Determinação pelo Fisco:
+        - Caso o contribuinte não indique ou o domicílio declarado cause dificuldades à fiscalização, o fisco pode fixar um domicílio de ofício.
+- Importância:
+    - Define onde obrigações tributárias devem ser cumpridas.
+    - Facilita a comunicação entre o contribuinte e a administração tributária.
 
 ## Lançamento Tributário
 
-- .
+- O lançamento tributário é o procedimento administrativo por meio do qual a autoridade fiscal formaliza a obrigação tributária de um contribuinte, determinando o montante devido e exigível de um tributo. 
+- Ele está regulado pelo Código Tributário Nacional (CTN), nos artigos 142 e seguintes.
+- Características Principais
+    - Natureza Declaratória: O lançamento confirma a existência da obrigação tributária, que surge com o fato gerador.
+    - Atribuição Exclusiva do Fisco: Apenas a autoridade administrativa pode realizar o lançamento.
+- Espécies de Lançamento
+    - Lançamento de Ofício:
+        - Realizado pela autoridade fiscal, independentemente de declaração do contribuinte.
+        - Exemplo: Multas ou IPTU.
+    - Lançamento por Declaração:
+        - O contribuinte declara os dados, e o fisco realiza o lançamento com base nas informações fornecidas.
+        - Exemplo: Importação de bens.
+    - Lançamento por Homologação:
+        - O contribuinte realiza o cálculo e o pagamento, sujeito à homologação pelo fisco.
+        - Exemplo: ICMS, IR.
+- Etapas do Lançamento
+    - Verificação do fato gerador.
+    - Cálculo do tributo devido.
+    - Notificação ao contribuinte.
+- O lançamento tributário é essencial para formalizar a relação jurídica entre o fisco e o contribuinte, garantindo o cumprimento das obrigações fiscais.
 
 ## Capacidade Contributiva
 
-- .
+- A capacidade contributiva é um princípio do direito tributário que estabelece que a tributação deve ser proporcional à capacidade econômica de cada contribuinte. 
+- Em outras palavras, aqueles que possuem maior riqueza ou renda devem contribuir mais com tributos em relação aos que possuem menos.
+- Fundamentos
+    - Base Constitucional:
+        - Está prevista no artigo 145, § 1º, da Constituição Federal do Brasil.
+        - Aplica-se principalmente aos impostos, que devem considerar a capacidade econômica do contribuinte.
+- Objetivo:
+    - Garantir justiça tributária e equidade fiscal, promovendo distribuição mais justa do ônus tributário.
+- Aplicação
+    - Progressividade Tributária:
+        - Alíquotas de impostos aumentam conforme aumenta a base tributária (ex.: IRPF).
+    - Imunidades e Isenções:
+        - Pessoas ou atividades com menor capacidade econômica podem ser desoneradas.
+- Importância
+    - Protege a dignidade humana ao evitar tributações excessivas sobre quem possui menos recursos.
+    - Promove a justiça social, reduzindo desigualdades econômicas por meio de uma tributação proporcional.
 
 ## Princípio da Anterioridade
 
-- .
+- O Princípio da Anterioridade no contexto tributário é um mecanismo constitucional que busca proteger os contribuintes contra aumentos repentinos de tributos, garantindo previsibilidade e segurança jurídica. 
+- Ele está previsto no art. 150, inciso III, alínea "b" da Constituição Federal, e determina que a instituição ou majoração de tributos só pode produzir efeitos a partir do próximo exercício financeiro, ou seja, no ano seguinte ao da publicação da lei que os criou ou aumentou.
+- Além disso, o Princípio da Anterioridade Nonagesimal (ou Noventena), previsto na alínea "c" do mesmo artigo, exige um intervalo mínimo de 90 dias entre a publicação da lei e a exigência do tributo, mesmo dentro do mesmo exercício financeiro. Ambos os princípios juntos evitam cobranças retroativas e garantem que os contribuintes tenham tempo para se adaptar às mudanças na legislação tributária.
+- Algumas exceções se aplicam a esses princípios, como impostos de caráter extrafiscal (ex.: IOF e IPI).
 
 ## Princípio da Legalidade Tributária
 
