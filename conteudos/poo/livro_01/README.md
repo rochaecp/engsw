@@ -822,11 +822,17 @@ class Classe1 : IUm, IDois
             - gerenciar algoritmos e comunicações entre classes e objetos
     - Linguagem utilizada: Smalltalk, mas podem ser implementados em C#, Java, etc
 
-- Refatoração    
+- Refatoração
+    - Refatoração é o processo de alteração de um sistema de software de modo que o comportamento externo do código não mude, mas que sua estrutura interna seja melhorada.
+    - É uma maneira disciplinada de aperfeiçoar o código que minimiza a chance de introdução de falhas.
+    - Em essência, quando você usa refatoração, você está melhorando o projeto de código após este ter sido escrito.
+
+- UML
+    - 
 
 # *Continuar em* 
 
-- pag 236
+- pag 238
 
 # Exercícios
 

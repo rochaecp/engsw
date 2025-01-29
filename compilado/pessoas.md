@@ -1,15 +1,44 @@
-# Brasileiros
+# **Brasileiros**
 
-- **Thiago Leite Carvalho** 
-    - Autor do livro “OO aprenda seus conceitos de forma efetiva” - github
+#### Thiago Leite Carvalho 
 
-# Estrangeiros
+- Autor do livro "OO aprenda seus conceitos de forma efetiva"
+- [Github do autor](https://github.com/thiagoleiteecarvalho/exemplosLivro)
 
-- **Martin Fowler** 
-    - Guru da OO
+# **Estrangeiros**
 
-- *"Gangue dos Quatro" (GoF)* - Autores do livro "Padrões de Projeto"
-    - **Erich Gamma**
-    - **John Vlissides**
-    - **Ralph Johnson**
-    - **Richard Helm**
+#### Don Roberts
+
+- Coautor de "Refactoring: Improving the Design of Existing Code"
+
+#### Erich Gamma
+
+- "Gangue dos Quatro" (GoF) - Autor do livro "Padrões de Projeto"
+
+#### John Brant
+
+- Coautor de "Refactoring: Improving the Design of Existing Code"
+
+#### John Vlissides
+
+- "Gangue dos Quatro" (GoF) - Autor do livro "Padrões de Projeto"
+
+#### Kent Beck
+
+- Coautor de "Refactoring: Improving the Design of Existing Code"
+
+#### Martin Fowler 
+
+- Guru da OO
+
+#### Ralph Johnson
+
+- "Gangue dos Quatro" (GoF) - Autor do livro "Padrões de Projeto"
+
+#### Richard Helm
+
+- "Gangue dos Quatro" (GoF) - Autor do livro "Padrões de Projeto"
+
+#### William Opdyke
+
+- Coautor de "Refactoring: Improving the Design of Existing Code"

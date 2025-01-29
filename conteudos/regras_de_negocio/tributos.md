@@ -209,7 +209,9 @@
 
 ## Princípio da Legalidade Tributária
 
-- .
+- O Princípio da Legalidade Tributária, previsto no art. 150, inciso I, da Constituição Federal, estabelece que nenhum tributo pode ser criado, aumentado ou exigido sem previsão legal. 
+- Isso significa que apenas uma lei, aprovada pelo Poder Legislativo, pode instituir ou alterar tributos, garantindo previsibilidade, transparência e proteção ao contribuinte contra abusos fiscais.
+- Esse princípio é um pilar da segurança jurídica, assegurando que o Estado só pode exigir tributos em conformidade com a lei vigente, e os cidadãos podem planejar suas obrigações tributárias de forma clara e estável.
 
 ## Princípio da Isonomia Tributária
 
