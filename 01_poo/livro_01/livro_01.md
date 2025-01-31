@@ -857,16 +857,16 @@ class Classe1 : IUm, IDois
     - Se utilizada, recomenda-se que seja em conjunto com a OO, para auxiliar 
     - Problema: legibilidade
 - Frameworks    
+    - "Conjunto de classes que trabalham em conjunto para automatizar uma necessidade específica"
+    - É uma porção de código que deve ser incluída em uma aplicação para agilizar determinadas atividades.
+    - Aumenta ganho de tempo de desenvolvimento, mas pode haver acréscimo de dificuldade em configurações, montagem de ambientes de trabalho, etc.
 
-# *Continuar em* 
-
-- pag 243
-
-# Exercícios
-
-## Polimorfismo
-
-1. Buscar exemplos no chatgpt sobre polimorfismo
+- Outros Tópicos
+    - Teste de Software
+    - Bancos de Dados Relacionais
+    - Programação para web
+    - Metodologias de desenvolvimento de software
+    - Tratamento de exceções
 
 # Fonte
 
