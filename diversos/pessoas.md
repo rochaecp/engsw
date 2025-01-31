@@ -15,6 +15,10 @@
 
 - "Gangue dos Quatro" (GoF) - Autor do livro "Padrões de Projeto"
 
+#### Gregor Kiczales
+
+- Funcionário Xerox, criou programação orientada a aspectos
+
 #### John Brant
 
 - Coautor de "Refactoring: Improving the Design of Existing Code"

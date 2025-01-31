@@ -828,11 +828,39 @@ class Classe1 : IUm, IDois
     - Em essência, quando você usa refatoração, você está melhorando o projeto de código após este ter sido escrito.
 
 - UML
-    - 
+    - Linguagem para representar de forma gráfica uma aplicação orientada a objetos.
+    - Escolher quais são importantes para documentar aplicação.
+    - Diagrama
+        - Diagrama de Estruturas
+            - *Diagrama de Perfil*
+            - **Diagrama de Classes**
+                - Representar todas as entidades (classes) que são necessárias para a aplicação se tornar operante.
+            - *Diagrama de Estruturas Compostas*
+            - *Diagrama de Componentes*
+            - *Diagrama de Implantação*
+            - *Diagrama de Objetos*
+            - *Diagrama de Pacotes*
+        - Diagrama de Comportamento
+            - *Diagrama de Atividades*
+            - **Diagrama de Casos de Uso**
+                - Visão geral das funcionalidades da aplicação e quem vai utilizá-las;
+            - *Diagrama de Máquina de Estados*
+            - Diagrama de Interação
+                - **Diagrama de Sequência**
+                    - Mostrar as interações necessárias para que uma funcinalidade seja executada;
+                - *Diagrama de Comunicação*
+                - *Diagrama de Visão Geral de Interação*
+                - *Diagrama de Tempo*
+- Orientação a Aspectos
+    - Não basta utilizar OO, padrões de projeto e refatoração.  
+    - Gregor Kiczales, Funcionário Xerox, criou programação orientada a aspectos
+    - Se utilizada, recomenda-se que seja em conjunto com a OO, para auxiliar 
+    - Problema: legibilidade
+- Frameworks    
 
 # *Continuar em* 
 
-- pag 238
+- pag 243
 
 # Exercícios
 
