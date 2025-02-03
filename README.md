@@ -2,13 +2,20 @@
 
 #### Programação Orientada a Objetos
 
-<!-- - [Livro 1](conteudos/poo/livro_01/README.md) -->
+- [Curso 01](poo/curso_01/README.md)
+- [Livro 01](poo/livro_01/livro_01.md)
 
 #### Exercícios de Programação
 
-<!-- - [Exercícios de Programação](exercicios/README.md) -->
+- [Exercícios de Programação](exercicios/README.md)
 
-#### IDEs
+#### Ferramentas 
 
-<!-- - [Visual Studio](conteudos/ides/visual_studio/README.md)
-- [Visual Studio Code](conteudos/ides/vs_code/README.md) -->
+- [Visual Studio](ferramentas/visual_studio.md)
+- [Visual Studio Code](ferramentas/vs_code.md)
+- [Diversas Ferramentas](ferramentas/diversas.md)
+
+#### Diversos
+
+- [Pessoas](diversos/pessoas.md)
+- [Bad Smells](diversos/bad_smells.md)

@@ -7,6 +7,16 @@
 
 # **Estrangeiros**
 
+#### Andrew Hunt
+
+- Programador Pragmático
+- [link](https://pragprog.com/)
+
+#### David Thomas
+
+- Programador Pragmático
+- [link](https://pragprog.com/)
+
 #### Don Roberts
 
 - Coautor de "Refactoring: Improving the Design of Existing Code"

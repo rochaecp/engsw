@@ -6,12 +6,10 @@ Pode organizar os conteúdos em listas com subitens.
 É um curso somente teórico e textual!
 
 Explique somente o item
-    4. Benefícios da Orientação a Objetos  
+    3. Abstração e simplificação de modelos  
 do curso sobre orientação a objetos a seguir:
 
 # **Ementa do Curso: Orientação a Objetos do Básico ao Avançado (Teórico)**  
-
-## **Fundamentos da Orientação a Objetos**  
 
 ### **Aula 1: Introdução ao Paradigma de OOP**  
 
@@ -23,7 +21,6 @@ do curso sobre orientação a objetos a seguir:
 ### **Aula 2: Conceitos Básicos**  
 
 1. Objetos e Classes  
-<!-- ****************************************************************** continuar aqui -->
 2. Atributos e Métodos  
 3. Instanciação de Objetos  
 4. Mensagens e Comunicação entre Objetos  
@@ -34,9 +31,8 @@ do curso sobre orientação a objetos a seguir:
 2. Relação entre classes e entidades do mundo real  
 3. Abstração e simplificação de modelos  
 
-## **Princípios Fundamentais da OOP**  
-
 ### **Aula 4: Encapsulamento**  
+<!-- ****************************************************************** continuar aqui -->
 
 1. Definição e importância do encapsulamento  
 2. Modificadores de acesso (`public`, `private`, `protected`)  
@@ -66,8 +62,6 @@ do curso sobre orientação a objetos a seguir:
 3. Sobrecarga e sobrescrita de métodos  
 4. Uso do `virtual`, `override` e `abstract` em linguagens como C#  
 5. Uso prático do polimorfismo na flexibilidade do código  
-
-## **Modelagem e Estruturas Avançadas**  
 
 ### **Aula 8: Classes e Objetos Avançados**  
 
@@ -100,8 +94,6 @@ do curso sobre orientação a objetos a seguir:
 2. Modelagem de exceções personalizadas  
 3. Relação entre exceções e boas práticas de design  
 
-## **Tópicos Avançados**  
-
 ### **Aula 13: Programação Genérica e Tipos**  
 
 1. Classes e Métodos Genéricos  
@@ -124,8 +116,6 @@ do curso sobre orientação a objetos a seguir:
 2. Problemas como race conditions e deadlocks  
 3. Uso de padrões para programação concorrente  
 
-## **Arquitetura de Software e OOP**  
-
 ### **Aula 17: Arquitetura Baseada em Objetos**  
 
 1. Modelagem orientada a objetos para sistemas reais  
@@ -145,8 +135,6 @@ do curso sobre orientação a objetos a seguir:
 2. Test-Driven Development (TDD)  
 3. Refatoração e melhoria contínua  
 
-## **Aplicação Prática da OOP**  
-
 ### **Aula 20: Modelagem de um Sistema Completo**  
 
 1. Modelagem UML com diagramas de classes  
@@ -162,8 +150,6 @@ do curso sobre orientação a objetos a seguir:
 1. OOP e APIs REST  
 2. OOP em sistemas distribuídos e microservices  
 3. OOP e programação funcional  
-
-## **Conclusão e Direcionamento Futuro**  
 
 ### **Aula 23: Resumo da Estrutura e Revisão Geral**  
 
