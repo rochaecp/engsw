@@ -6,7 +6,7 @@ Pode organizar os conteúdos em listas com subitens.
 É um curso somente teórico e textual!
 
 Explique somente o item
-    3. Abstração e simplificação de modelos  
+    4. Uso de interfaces para abstração 
 do curso sobre orientação a objetos a seguir:
 
 # **Ementa do Curso: Orientação a Objetos do Básico ao Avançado (Teórico)**  
@@ -32,7 +32,6 @@ do curso sobre orientação a objetos a seguir:
 3. Abstração e simplificação de modelos  
 
 ### **Aula 4: Encapsulamento**  
-<!-- ****************************************************************** continuar aqui -->
 
 1. Definição e importância do encapsulamento  
 2. Modificadores de acesso (`public`, `private`, `protected`)  
@@ -47,6 +46,7 @@ do curso sobre orientação a objetos a seguir:
 4. Uso de interfaces para abstração  
 
 ### **Aula 6: Herança**  
+<!-- ****************************************************************** continuar aqui -->
 
 1. Conceito de herança e reutilização de código  
 2. Relações entre superclasses e subclasses  
