@@ -512,14 +512,44 @@ O uso adequado de atributos e métodos permite a construção de sistemas organi
 ## **Aula 6: Herança**
 
 #### Conceito de herança e reutilização de código  
+
+- Herança é um mecanismo da programação orientada a objetos que permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse). 
+- Isso promove a reutilização de código, evitando a necessidade de reescrever funcionalidades comuns.
+
 #### Relações entre superclasses e subclasses  
+
+- Superclasse (Classe Base): Define comportamentos e características genéricas.
+- Subclasse (Classe Derivada): Herda as propriedades da superclasse e pode adicionar ou modificar comportamentos específicos.
+- Essa relação segue a lógica do "é um tipo de" (ex: um Carro é um tipo de Veículo).
+
 #### Herança múltipla e seus desafios  
+
+- Herança múltipla ocorre quando uma subclasse herda de mais de uma superclasse. 
+- Embora aumente a flexibilidade, pode causar problemas de conflito de métodos e ambiguidade, dificultando a manutenção do código. 
+- Por isso, algumas linguagens, como Java e C#, não permitem herança múltipla direta, utilizando interfaces como alternativa.
+
 #### Relação entre classes (superclasse e subclasse)  
+
+- A relação é hierárquica, onde a subclasse pode:
+    - Estender funcionalidades da superclasse.
+    - Sobrescrever métodos para adaptar comportamentos.
+    - Utilizar métodos e atributos herdados, sem a necessidade de redefini-los.
+
 #### Reutilização de código e extensão de funcionalidades  
+
+- A herança facilita a reutilização de código existente, permitindo que subclasses herdem comportamentos comuns e adicionem novas funcionalidades específicas, promovendo a extensibilidade do sistema.
+
 #### Problemas da herança excessiva  
+
+- O uso excessivo da herança pode:
+    - Tornar o código rígido e difícil de manter.
+    - Criar uma hierarquia complexa, difícil de entender.
+    - Acoplar fortemente classes, limitando a flexibilidade.
+    - Nesses casos, é recomendável o uso de composição em vez de herança.
 
 ## **Aula 7: Polimorfismo**
 
+<!-- ****************************************************************** continuar aqui -->
 #### Polimorfismo em tempo de compilação (sobrecarga de métodos)  
 #### Polimorfismo em tempo de execução (sobrescrita de métodos)  
 #### Sobrecarga e sobrescrita de métodos  
@@ -547,28 +577,80 @@ O uso adequado de atributos e métodos permite a construção de sistemas organi
 
 ## **Aula 11: Métodos e Atributos Estáticos**
 
+#### Uso de membros estáticos para modelagem de comportamento global  
+#### Diferenças entre métodos de instância e estáticos  
+#### Aplicações e boas práticas  
+
 ## **Aula 12: Exceções e Tratamento de Erros em OOP**
+
+#### Como a OOP lida com erros e exceções  
+#### Modelagem de exceções personalizadas  
+#### Relação entre exceções e boas práticas de design  
 
 ## **Aula 13: Programação Genérica e Tipos**
 
+#### Classes e Métodos Genéricos  
+#### Interfaces Genéricas  
+#### Tipos parametrizados (`T`)  
+
 ## **Aula 14: Reflexão e Metaprogramação**
+
+#### Reflexão em Java, C# e Python  
+#### Manipulação dinâmica de objetos e classes  
 
 ## **Aula 15: Gerenciamento de Memória e Performance**
 
+#### Garbage Collection e destruição de objetos  
+#### Otimização de código orientado a objetos  
+
 ## **Aula 16: Multi-threading e Concorrência em OOP**
+
+#### Threads e sincronização  
+#### Problemas como race conditions e deadlocks  
+#### Uso de padrões para programação concorrente  
 
 ## **Aula 17: Arquitetura Baseada em Objetos**
 
+#### Modelagem orientada a objetos para sistemas reais  
+#### Como organizar classes e pacotes em grandes sistemas  
+#### Relação entre OOP e microserviços  
+
 ## **Aula 18: Padrões de Arquitetura para OOP**
+
+#### MVC (Model-View-Controller)  
+#### MVVM (Model-View-ViewModel)  
+#### Hexagonal Architecture  
+#### Domain-Driven Design (DDD)  
 
 ## **Aula 19: Testes e Manutenção em OOP**
 
+#### Testes unitários em sistemas orientados a objetos  
+#### Test-Driven Development (TDD)  
+#### Refatoração e melhoria contínua  
+
 ## **Aula 20: Modelagem de um Sistema Completo**
+
+#### Modelagem UML com diagramas de classes  
+#### Implementação de um sistema real usando OOP  
 
 ## **Aula 21: OOP em Diferentes Linguagens** 
 
+#### Comparação entre OOP em Java, C#, Python e C++  
+#### Diferenças e particularidades de cada linguagem  
+
 ## **Aula 22: Integração da OOP com Tecnologias Modernas**
+
+#### OOP e APIs REST  
+#### OOP em sistemas distribuídos e microservices  
+#### OOP e programação funcional  
 
 ## **Aula 23: Resumo da Estrutura e Revisão Geral**
 
+#### Recapitulação dos conceitos aprendidos  
+#### Caminhos para aprofundamento e especialização  
+#### Melhores práticas para aplicação profissional  
+
 ## **Aula 24: Avaliação Final e Certificação**
+
+#### Prova teórica sobre os conceitos abordados  
+#### Certificação de conclusão do curso  
