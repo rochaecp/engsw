@@ -80,3 +80,129 @@ Este **sistema de cidade inteligente** demonstra um projeto amplo de **orientaç
 - **Polimorfismo:** Uso de interfaces para manipulação de sensores diversos.
 
 Com essa abordagem, o sistema pode ser facilmente expandido para novas funcionalidades, garantindo **escalabilidade e eficiência** para a gestão de cidades inteligentes.
+
+#### Diagrama de Classes
+
+~~~mermaid
+classDiagram
+    %% Classes Abstratas e Interfaces
+    class EntidadeCidade {
+        <<abstract>>
+        +id: int
+        +nome: String
+    }
+
+    class ISensor {
+        <<interface>>
+        +lerDados(): void
+    }
+
+    %% Classes Concretas
+    class Veiculo {
+        +placa: String
+        +modelo: String
+        +localizacao: String
+        +atualizarLocalizacao(): void
+    }
+
+    class Onibus {
+        +rota: String
+        +capacidade: int
+        +registrarPassageiros(): void
+    }
+
+    class Metro {
+        +linha: String
+        +numeroVagoes: int
+        +registrarPassageiros(): void
+    }
+
+    class Ambulancia {
+        +hospitalAssociado: String
+        +emEmergencia: bool
+        +atenderChamada(): void
+    }
+
+    class ViaturaPolicial {
+        +delegaciaAssociada: String
+        +emPatrulha: bool
+        +responderOcorrencia(): void
+    }
+
+    class FuncionarioPublico {
+        +cpf: String
+        +cargo: String
+        +executarTarefa(): void
+    }
+
+    class Policial {
+        +patente: String
+        +areaAtuacao: String
+        +realizarPatrulha(): void
+    }
+
+    class Medico {
+        +crm: String
+        +especialidade: String
+        +realizarConsulta(): void
+    }
+
+    class Motorista {
+        +cnh: String
+        +tipoVeiculo: String
+        +conduzirVeiculo(): void
+    }
+
+    class SensorCamera {
+        +resolucao: String
+        +ativarReconhecimentoFacial(): void
+    }
+
+    class SensorPresenca {
+        +sensibilidade: String
+        +detectarMovimento(): void
+    }
+
+    class SensorQualidadeAr {
+        +indiceQualidade: int
+        +medirQualidadeAr(): void
+    }
+
+    class Cidadao {
+        +cpf: String
+        +endereco: String
+        +solicitarServico(): void
+    }
+
+    class PortalCidadao {
+        +registrarSolicitacao(): void
+        +agendarAtendimento(): void
+    }
+
+    class Zoologico {
+        +animais: List~Animal~
+        +funcionarios: List~Funcionario~
+        +adicionarAnimal(animal: Animal): void
+        +adicionarFuncionario(funcionario: Funcionario): void
+        +listarAnimais(): void
+        +listarFuncionarios(): void
+    }
+
+    %% Relacionamentos
+    EntidadeCidade <|-- Veiculo
+    EntidadeCidade <|-- FuncionarioPublico
+    EntidadeCidade <|-- Cidadao
+    Veiculo <|-- Onibus
+    Veiculo <|-- Metro
+    Veiculo <|-- Ambulancia
+    Veiculo <|-- ViaturaPolicial
+    FuncionarioPublico <|-- Policial
+    FuncionarioPublico <|-- Medico
+    FuncionarioPublico <|-- Motorista
+    ISensor <|.. SensorCamera
+    ISensor <|.. SensorPresenca
+    ISensor <|.. SensorQualidadeAr
+    PortalCidadao o-- Cidadao
+    Zoologico o-- Animal
+    Zoologico o-- Funcionario
+~~~
