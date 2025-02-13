@@ -642,72 +642,200 @@ O uso adequado de atributos e métodos permite a construção de sistemas organi
 
 ## **Aula 11: Métodos e Atributos Estáticos**
 
-<!-- ****************************************************************** continuar aqui -->
 #### Uso de membros estáticos para modelagem de comportamento global  
+
+- Membros estáticos pertencem à classe e não a instâncias específicas. 
+- Eles são úteis para modelar comportamentos globais, como configurações compartilhadas, gerenciamento de logs e acesso a recursos comuns. 
+- São chamados diretamente pelo nome da classe.
+
 #### Diferenças entre métodos de instância e estáticos  
+
+- Métodos de instância: Precisam de um objeto da classe para serem chamados e podem acessar membros não estáticos.
+- Métodos estáticos: São chamados diretamente pela classe e não podem acessar membros de instância sem uma referência explícita.
+
 #### Aplicações e boas práticas  
+
+- Usar métodos estáticos para operações que não dependem de dados específicos de um objeto, como cálculos matemáticos ou manipulação de strings.
+- Evitar o uso excessivo para evitar dificuldades em testes e manutenção do código.
+- Preferir instâncias quando houver necessidade de armazenar estados ou modificar atributos dinamicamente.
 
 ## **Aula 12: Exceções e Tratamento de Erros em OOP**
 
 #### Como a OOP lida com erros e exceções  
+
+- A Programação Orientada a Objetos (OOP) lida com erros por meio do tratamento de exceções. 
+- Os blocos try, catch e finally permitem capturar e tratar erros sem interromper a execução do programa. 
+- O uso de exceções melhora a robustez e a legibilidade do código.
+
 #### Modelagem de exceções personalizadas  
+
+- Em OOP, é possível criar exceções personalizadas para representar erros específicos do domínio da aplicação. 
+- Isso melhora a clareza e facilita o diagnóstico de problemas. 
+- As exceções personalizadas normalmente herdam de uma classe base de exceção, como Exception em linguagens como Java, C# e Python.
+
 #### Relação entre exceções e boas práticas de design  
+
+- Lançar exceções apenas quando necessário, evitando uso excessivo que pode impactar o desempenho.
+- Usar exceções específicas em vez de genéricas para facilitar a depuração.
+- Manter mensagens de erro claras e informativas para ajudar na identificação e solução de problemas.
+- Garantir a liberação de recursos no bloco finally, como fechar conexões de banco de dados e liberar memória.
 
 ## **Aula 13: Programação Genérica e Tipos**
 
 #### Classes e Métodos Genéricos  
+
+- Classes e métodos genéricos permitem a criação de código reutilizável e flexível, aceitando diferentes tipos sem precisar definir explicitamente um tipo específico. 
+- Isso melhora a reutilização e a segurança do código, reduzindo a necessidade de conversões de tipo.
+
 #### Interfaces Genéricas  
+
+- Interfaces genéricas permitem definir comportamentos que podem ser aplicados a diferentes tipos. 
+- Isso facilita a criação de estruturas mais flexíveis e reutilizáveis, garantindo a consistência do código e permitindo que diferentes classes implementem a interface de maneira parametrizada.
+
 #### Tipos parametrizados (`T`)  
+
+- Os tipos genéricos utilizam parâmetros de tipo (T, U, etc.) para definir classes, métodos ou interfaces que podem operar com diferentes tipos sem perder segurança. 
+- Isso evita a duplicação de código e reduz a necessidade de conversões explícitas.
 
 ## **Aula 14: Reflexão e Metaprogramação**
 
 #### Reflexão em Java, C# e Python  
+
+- Reflexão é a capacidade de inspecionar e modificar classes, métodos e atributos em tempo de execução. 
+- Linguagens como Java, C# e Python permitem acessar informações sobre classes e métodos dinamicamente, possibilitando a criação de frameworks, ferramentas de depuração e sistemas de injeção de dependência.
+
 #### Manipulação dinâmica de objetos e classes  
+
+- A manipulação dinâmica permite criar instâncias, chamar métodos e acessar propriedades de objetos em tempo de execução, sem conhecer seu tipo em tempo de compilação. 
+- Isso é útil em cenários como ORM, serialização e plugins dinâmicos.
 
 ## **Aula 15: Gerenciamento de Memória e Performance**
 
 #### Garbage Collection e destruição de objetos  
+
+- O Garbage Collector (GC) gerencia automaticamente a alocação e liberação de memória, destruindo objetos que não são mais utilizados. 
+- Isso evita vazamentos de memória e melhora a eficiência do sistema. 
+- Algumas linguagens permitem um controle mais refinado sobre a liberação de recursos por meio de destrutores ou métodos específicos, como Dispose().
+
 #### Otimização de código orientado a objetos  
+
+- A otimização do código em OOP envolve boas práticas como redução de acoplamento, uso adequado de herança e composição, e implementação de padrões de projeto. 
+- Técnicas como lazy loading, pooling de objetos e minimização de instâncias também ajudam a melhorar a performance.
 
 ## **Aula 16: Multi-threading e Concorrência em OOP**
 
 #### Threads e sincronização  
+
+- Threads permitem a execução simultânea de múltiplas tarefas dentro de um programa, melhorando o desempenho de aplicações que precisam lidar com operações concorrentes. 
+- A sincronização entre threads é essencial para evitar inconsistências e acessos simultâneos a recursos compartilhados.
+
 #### Problemas como race conditions e deadlocks  
+
+- Race conditions ocorrem quando duas ou mais threads acessam e modificam um recurso simultaneamente, resultando em comportamento inesperado. 
+- Deadlocks surgem quando duas ou mais threads ficam bloqueadas aguardando um recurso que nunca será liberado. 
+- O uso correto de locks e mecanismos de sincronização ajuda a evitar esses problemas.
+
 #### Uso de padrões para programação concorrente  
+
+- Padrões como Producer-Consumer, Thread Pool e Future/Promise auxiliam no desenvolvimento de sistemas concorrentes eficientes. 
+- Eles organizam a execução de tarefas assíncronas e reduzem problemas comuns, como sobrecarga de threads e sincronização complexa.
 
 ## **Aula 17: Arquitetura Baseada em Objetos**
 
 #### Modelagem orientada a objetos para sistemas reais  
+
+- A modelagem de sistemas reais com OOP envolve a identificação correta de classes, suas responsabilidades e relações. 
+- Aplicar princípios como SOLID e GRASP melhora a manutenção e escalabilidade do software.
+
 #### Como organizar classes e pacotes em grandes sistemas  
+
+- Em sistemas complexos, a organização do código em pacotes e módulos facilita a reutilização e a manutenção. 
+- A separação por camadas (apresentação, lógica de negócios, persistência) e o uso de padrões arquiteturais como MVC ajudam a estruturar melhor o software.
+
 #### Relação entre OOP e microserviços  
+
+- A OOP é compatível com a arquitetura de microserviços, pois permite a modularização e reutilização de componentes. 
+- Cada microserviço pode ser implementado como uma unidade independente, seguindo princípios de encapsulamento e separação de responsabilidades.
 
 ## **Aula 18: Padrões de Arquitetura para OOP**
 
 #### MVC (Model-View-Controller)  
+
+- O padrão MVC separa a aplicação em três camadas: Model (dados e regras de negócio), View (interface gráfica ou resposta ao usuário) e Controller (intermedia a comunicação entre Model e View). 
+- Essa separação facilita a manutenção e reutilização do código.
+
 #### MVVM (Model-View-ViewModel)  
+
+- MVVM é uma variação do MVC utilizada principalmente em aplicações desktop e mobile. 
+- Ele adiciona o ViewModel, que atua como intermediário entre a View e o Model, permitindo a vinculação de dados (data binding) de forma mais eficiente.
+
 #### Hexagonal Architecture  
+
+- Também chamada de Ports and Adapters, essa arquitetura propõe a separação total entre lógica de negócio e infraestrutura. 
+- Isso torna o código mais flexível e permite que diferentes interfaces (bancos de dados, APIs, interfaces gráficas) sejam acopladas sem afetar a lógica central.
+
 #### Domain-Driven Design (DDD)  
+
+- O DDD propõe um design baseado no domínio do problema, focando na modelagem do negócio por meio de entidades, agregados e repositórios. 
+- Ele favorece a comunicação entre desenvolvedores e especialistas do domínio.
 
 ## **Aula 19: Testes e Manutenção em OOP**
 
 #### Testes unitários em sistemas orientados a objetos  
+
+- Os testes unitários validam o funcionamento de pequenas partes do código, como métodos e classes individuais. 
+- Utilizar frameworks de testes (JUnit, NUnit, PyTest) permite automatizar e verificar a confiabilidade do sistema.
+
 #### Test-Driven Development (TDD)  
+
+- No TDD, os testes são escritos antes da implementação do código. 
+- Esse método força o desenvolvimento orientado a testes, garantindo que cada funcionalidade seja bem definida e funcionando corretamente desde o início.
+
 #### Refatoração e melhoria contínua  
+
+- Refatorar código significa reorganizá-lo sem alterar sua funcionalidade, tornando-o mais legível, eficiente e sustentável. 
+- Isso inclui a eliminação de duplicações, melhoria da estrutura e uso de padrões de design.
 
 ## **Aula 20: Modelagem de um Sistema Completo**
 
 #### Modelagem UML com diagramas de classes  
+
+- A UML (Unified Modeling Language) permite representar visualmente classes, relações entre objetos e fluxos do sistema. 
+- Diagramas de classes ajudam na estruturação e documentação do projeto antes da implementação.
+
 #### Implementação de um sistema real usando OOP  
+
+- Na prática, um sistema orientado a objetos deve seguir princípios como modularidade, encapsulamento e reuso de código. 
+- A implementação envolve a definição de classes, suas relações e o uso de padrões de projeto para garantir escalabilidade.
 
 ## **Aula 21: OOP em Diferentes Linguagens** 
 
 #### Comparação entre OOP em Java, C#, Python e C++  
+
+- Java e C# possuem forte tipagem e são amplamente usados para aplicações empresariais. 
+- Python tem uma sintaxe mais flexível e é popular para scripts e ciência de dados. 
+- C++ combina paradigmas estruturados e orientados a objetos, sendo muito usado em sistemas de alto desempenho.
+
 #### Diferenças e particularidades de cada linguagem  
+
+- Cada linguagem tem sua abordagem para OOP:
+    - Java e C# usam classes fortemente tipadas e interfaces
+    - Python permite uma sintaxe mais dinâmica e simplificada
+    - C++ permite herança múltipla e gerenciamento manual de memória
 
 ## **Aula 22: Integração da OOP com Tecnologias Modernas**
 
 #### OOP e APIs REST  
+
+- OOP facilita a criação de APIs REST, pois permite organizar endpoints como objetos e controlar operações por meio de métodos específicos. 
+- A arquitetura REST utiliza conceitos de OOP para modelar recursos e garantir a manutenção do código.
+
 #### OOP em sistemas distribuídos e microservices  
+
+- Microservices são baseados em princípios de OOP, onde cada serviço representa uma entidade independente com sua própria lógica de negócio. 
+- A separação de responsabilidades e encapsulamento são fundamentais para a escalabilidade desses sistemas.
+
 #### OOP e programação funcional  
 
-
+- A programação funcional enfatiza funções puras e imutabilidade, enquanto a OOP foca em objetos e estados. 
+- Muitas linguagens modernas permitem a combinação dos dois paradigmas, aproveitando o melhor de cada abordagem para desenvolver sistemas mais flexíveis e robustos.
