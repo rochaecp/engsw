@@ -3,7 +3,7 @@
 #### Introdução
 
 1. [Criação e uso de variáveis](01_introducao/variaveis.md)
-1. [Criação e uso de Constantes](01_introducao/constantes.md)
+1. [Criação e uso de constantes](01_introducao/constantes.md)
 1. [Uso de operadores aritméticos](01_introducao/operadores_aritmeticos.md)
 1. [Uso de operadores relacionais](01_introducao/operadores_relacionais.md)
 1. [Uso de operadores lógicos](01_introducao/operadores_logicos.md)
