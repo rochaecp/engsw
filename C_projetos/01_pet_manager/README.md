@@ -63,6 +63,50 @@ O sistema deve permitir:
     - Permitir operações CRUD (Create, Read, Update, Delete) para todas as entidades do sistema.
     - Garantir integridade referencial, assegurando que pets, clientes e funcionários sejam corretamente associados.
     - Implementar backups automáticos para evitar perda de informações.
+- Interface Gráfica do Usuário (GUI):
+    - Desenvolver uma interface gráfica intuitiva e responsiva para interação com o sistema.
+    - A interface deverá ser baseada em formulários, botões e tabelas, permitindo fácil navegação entre as funcionalidades.
+    - Principais telas e funcionalidades:
+        - Tela Principal:
+            - Menu lateral para acessar diferentes seções do sistema.
+            - Painel inicial exibindo estatísticas rápidas, como número de pets cadastrados e clientes ativos.
+        - Cadastro de Clientes:
+            - Formulário para inserir nome, endereço e lista de pets.
+            - Botão para adicionar e remover pets associados ao cliente.
+            - Botão para salvar ou cancelar o cadastro.
+        - Cadastro de Pets:
+            - Formulário para adicionar nome, raça, idade e categoria (mamífero, ave ou peixe).
+            - Botão para vincular um pet a um cliente existente.
+        - Cadastro de Funcionários:
+            - Formulário para adicionar nome, cargo (gestor ou veterinário), endereço e salário.
+            - Campo de especialidade para veterinários.
+        - Cadastro de Produtos:
+            - Formulário para adicionar nome do produto, descrição, preço e quantidade em estoque.
+            - Botão para ajustar o estoque e visualizar histórico de movimentação.
+        - Tela de Busca e Filtros:
+            - Campo de pesquisa para buscar clientes, pets, funcionários ou produtos pelo nome.
+            - Filtros para refinar a busca, como tipo de pet, cargo do funcionário e faixa de preço de produtos.
+            - Listagem interativa dos resultados da busca, com botões para editar ou excluir registros.
+        - Tela de Relatórios:
+            - Relatório detalhado de clientes e seus pets.
+            - Relatório de produtos cadastrados e estoque disponível.
+            - Resumo financeiro de gastos com funcionários e faturamento com produtos vendidos.
+        - Gestão de Banco de Dados:
+            - Tela para backup manual e restauração de dados.
+            - Status do banco de dados e número de registros por entidade.
+        - Tela de Configurações:
+            - Permitir personalização da interface (tema claro/escuro).
+            - Configuração de idioma e permissões de usuários.
+    - Tecnologias recomendadas para a GUI:
+        - JavaFX ou Swing (para aplicações desktop em Java).
+        - WinForms ou WPF (para aplicações desktop em .NET - C#).
+        - Electron.js (para aplicações multiplataforma baseadas em JavaScript).
+        - Frameworks web como React, Angular ou Vue.js para interfaces modernas com integração via API.
+    - Benefícios da Interface Gráfica:
+        - Melhora a experiência do usuário e torna o sistema mais acessível.
+        - Permite um fluxo intuitivo de navegação entre as funções.
+        - Facilita o gerenciamento de dados, evitando erros manuais.
+        - Aumenta a produtividade, tornando o uso do sistema mais rápido e eficiente.    
 
 #### Exemplo de Entrada Esperada
 
