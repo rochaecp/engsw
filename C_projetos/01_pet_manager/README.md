@@ -16,7 +16,7 @@
 
 #### Requisitos
 
-O sistema deve permitir:
+- O sistema deve permitir:
     - Cadastro e gerenciamento de dados:
         - Cadastro de pets com raça, nome e idade.
         - Cadastro de clientes com informações pessoais e seus respectivos pets.
