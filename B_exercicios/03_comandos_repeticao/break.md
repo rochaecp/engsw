@@ -2,19 +2,19 @@
 
 ## 1) **Adivinhe o Número Secreto**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa de adivinhação onde o usuário deve tentar descobrir um número secreto gerado aleatoriamente pelo computador. 
 - O programa utilizará o comando break para interromper o loop assim que o número for adivinhado corretamente.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve gerar um número secreto entre 1 e 100.
 - O usuário deve ter tentativas ilimitadas até acertar o número.
 - O comando break deve ser usado para encerrar o loop imediatamente quando o número correto for adivinhado.
 - O programa deve informar se o palpite do usuário é maior ou menor que o número secreto, ajudando o usuário a ajustar suas tentativas.
 
-#### O programa deve:
+#### O programa deve
 
 - Gerar um número secreto aleatório entre 1 e 100.
 - Solicitar que o usuário digite um palpite.
@@ -24,14 +24,14 @@
     - Se o palpite for correto, exibir "Parabéns! Você acertou!" e usar o break para sair do loop.
 - Continuar pedindo palpites até o número correto ser adivinhado.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Limitar o número de tentativas a 10. Se o usuário não acertar após 10 tentativas, o programa deve encerrar e revelar o número secreto.
 - Exibir o número de tentativas que o usuário precisou para acertar.
 - Adicionar um modo "difícil", onde o número secreto está entre 1 e 1000.
 - Permitir que o usuário jogue novamente após o término do jogo.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Bem-vindo ao jogo de adivinhação!

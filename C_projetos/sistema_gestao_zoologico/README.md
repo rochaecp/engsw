@@ -28,7 +28,7 @@
     - Lista de funcionários e suas funções.
     - Registro das atividades realizadas.
 
-#### Bônus (opcional)
+#### Bônus
 
 - Implementar um sistema de alimentação, onde cada animal tem um tipo específico de comida.
 - Criar um histórico de tratamentos, armazenando os registros das visitas veterinárias de cada animal.

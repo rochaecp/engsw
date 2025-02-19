@@ -2,12 +2,12 @@
 
 ## 1) Sistema de Cadastro de Funcionários com Herança
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar o cadastro de diferentes tipos de funcionários em uma empresa, utilizando o conceito de herança. 
 - O objetivo é demonstrar como uma classe base pode ser estendida por subclasses que herdam atributos e métodos, além de adicionar suas próprias características.
 
-#### Requisitos:
+#### Requisitos
 
 - Criar uma classe base Funcionario com os seguintes atributos:
     - Nome (texto)
@@ -22,14 +22,14 @@
         - Atributo adicional: LinguagemDeProgramacao (texto)
         - Método sobrescrito ExibirInformacoes() que inclui a linguagem de programação na exibição.
 
-#### O programa deve:
+#### O programa deve
 
 - Permitir o cadastro de novos funcionários, solicitando se o usuário deseja cadastrar um Gerente ou um Desenvolvedor.
 - Armazenar os funcionários em uma lista.
 - Exibir uma lista de todos os funcionários cadastrados, mostrando suas informações específicas (incluindo bônus para gerentes e linguagem de  programação para desenvolvedores).
 - Demonstrar o uso de herança e polimorfismo, permitindo que o método ExibirInformacoes() funcione de forma diferente em cada classe derivada.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Adicionar um terceiro tipo de funcionário, como Estagiário, com um atributo de CargaHorariaSemanal.
 - Calcular o salário de estagiários com base em uma taxa horária fixa.
@@ -37,7 +37,7 @@
 - Permitir a edição de dados de funcionários já cadastrados.
 - Implementar uma função para calcular a média salarial da empresa.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE CADASTRO DE FUNCIONÁRIOS =====

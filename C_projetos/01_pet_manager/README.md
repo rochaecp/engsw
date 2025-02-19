@@ -47,7 +47,7 @@
     - Remover clientes e seus pets associados.
     - Excluir funcionários ou produtos quando necessário.
 
-#### Bônus (opcional)
+#### Bônus
 
 - Relatórios:
     - Gerar um relatório detalhado dos pets cadastrados.
@@ -278,7 +278,7 @@ classDiagram
     PetShop "1" -- "n" Produto : vende
 ~~~
 
-#### Diagrama de classes - versão com banco de dados
+#### Diagrama de Classes - versão com banco de dados
 
 ~~~mermaid
 classDiagram

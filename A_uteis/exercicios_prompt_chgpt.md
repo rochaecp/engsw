@@ -7,6 +7,6 @@ A descrição do exercício deve conter os seguintes trechos
 #### Descrição
 #### Requisitos
 #### O programa deve
-#### Bônus (opcional)
+#### Bônus
 #### Exemplo de Entrada Esperada
-#### Exemplo de Saída Esperada
+### Exemplo de Saída Esperada

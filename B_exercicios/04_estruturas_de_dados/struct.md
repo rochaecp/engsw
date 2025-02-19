@@ -2,13 +2,13 @@
 
 ## 1) **Sistema de Registro de Produtos usando Structs**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar um sistema de registro de produtos em um estoque. 
 - Cada produto terá informações como código do produto, nome, preço e quantidade em estoque. 
 - Essas informações devem ser organizadas usando uma struct, representando o modelo de um produto.
 
-#### Requisitos:
+#### Requisitos
 
 - Definir uma struct chamada Produto com os seguintes campos:
     - Código (inteiro)
@@ -18,7 +18,7 @@
 - O programa deve permitir adicionar, visualizar e atualizar produtos no estoque.
 - O programa deve usar uma lista ou array para armazenar múltiplos produtos.
 
-#### O programa deve:
+#### O programa deve
 
 - Cadastrar um novo produto, solicitando as informações do usuário.
 - Listar todos os produtos, exibindo seus detalhes de forma organizada.
@@ -26,14 +26,14 @@
 - Calcular o valor total em estoque de um produto (preço × quantidade).
 - Continuar funcionando até o usuário escolher a opção de sair do programa.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Adicionar um campo opcional de categoria do produto usando um Enum.
 - Implementar a funcionalidade de remover um produto do estoque.
 - Calcular e exibir o valor total do estoque com base em todos os produtos registrados.
 - Adicionar uma função de pesquisa por nome do produto.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE ESTOQUE =====

@@ -2,12 +2,12 @@
 
 ## 1) **Sistema de Pagamentos com Interfaces**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que simule um sistema de pagamentos para diferentes métodos, utilizando o conceito de interfaces. 
 - O objetivo é demonstrar como interfaces permitem definir contratos que garantem a implementação de métodos específicos em diferentes classes.
 
-#### Requisitos:
+#### Requisitos
 
 - Criar uma interface chamada IPagamento com o seguinte método:
     - RealizarPagamento(valor) – responsável por processar o pagamento de um determinado valor.
@@ -19,21 +19,21 @@
         - Deve implementar o método RealizarPagamento, exibindo uma mensagem de que o pagamento foi feito por boleto.
         - Ter um atributo adicional: CodigoBarras para simular o código do boleto.
 
-#### O programa deve:
+#### O programa deve
 
 - Permitir que o usuário escolha o método de pagamento (cartão de crédito ou boleto bancário).
 - Solicitar as informações necessárias (número do cartão ou código de barras) e o valor do pagamento.
 - Processar o pagamento chamando o método RealizarPagamento da classe correspondente.
 - Demonstrar o uso de polimorfismo, já que o mesmo método (RealizarPagamento) funciona de forma diferente em cada classe.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Implementar uma terceira forma de pagamento, como Pix, com um atributo de ChavePix.
 - Criar uma interface adicional ICancelamento, com o método CancelarPagamento(), e implementar esse recurso nas classes de pagamento.
 - Adicionar validação de dados, como verificar se o número do cartão ou o código de barras tem o formato correto.
 - Criar um histórico de pagamentos realizados, armazenando as transações em uma lista e permitindo exibir todas as operações.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE PAGAMENTOS =====

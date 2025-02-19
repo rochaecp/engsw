@@ -20,7 +20,7 @@
 - Calcular o valor total em estoque para cada produto (quantidade em estoque * preço unitário).
 - Exibir um relatório final com o nome do produto, quantidade em estoque, preço unitário e o valor total em estoque.
 
-#### Bônus (opcional)
+#### Bônus
 
 - Calcule o valor total do inventário da loja (soma do valor total em estoque de todos os produtos).
 - Permita ao usuário atualizar a quantidade de um dos produtos e exiba o relatório atualizado.

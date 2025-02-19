@@ -2,32 +2,32 @@
 
 ## 1) **Gerador de Tabuada**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que gere a tabuada de multiplicação para um número fornecido pelo usuário, utilizando o comando for. 
 - O programa deve exibir os resultados da multiplicação do número de 1 até 10.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve solicitar um número inteiro ao usuário.
 - O comando for deve ser usado para iterar de 1 até 10.
 - Em cada iteração, o programa deve calcular e exibir o resultado da multiplicação do número informado pelo usuário com o número da iteração.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar que o usuário insira um número inteiro.
 - Utilizar o for para gerar a tabuada do número, de 1 até 10.
 - Exibir o resultado de cada multiplicação em uma nova linha.
 - Validar se o número inserido é um valor inteiro (opcional para linguagens fortemente tipadas).
 
-#### Bônus (opcional):
+#### Bônus
 
 - Permitir que o usuário defina o intervalo da tabuada, como de 1 até 20, por exemplo.
 - Gerar a tabuada de vários números de uma vez, separados por vírgulas.
 - Exibir o resultado de forma formatada, como em uma tabela.
 - Permitir escolher entre multiplicação, adição, subtração ou divisão para a tabuada.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Digite um número para ver sua tabuada: 5

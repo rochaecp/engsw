@@ -2,12 +2,12 @@
 
 ## 1) **Sistema de Conta Bancária com Encapsulamento**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para simular o gerenciamento de uma conta bancária, aplicando o conceito de encapsulamento. 
 - O objetivo é proteger os dados da conta, controlando o acesso às informações sensíveis e permitindo apenas operações seguras através de métodos públicos.
 
-#### Requisitos:
+#### Requisitos
 
 - Definir uma classe ContaBancaria com as seguintes propriedades privadas:
     - NumeroConta (texto ou número)
@@ -19,7 +19,7 @@ Criar métodos públicos para:
     - Realizar saques (método que verifica se há saldo suficiente antes de sacar)
     - Exibir as informações da conta, exceto detalhes sensíveis (como o saldo, que só será mostrado por meio do getter)
 
-#### O programa deve:
+#### O programa deve
 
 - Criar uma nova conta bancária solicitando o nome do titular e o número da conta.
 - Permitir depósitos e saques, verificando se o saldo é suficiente para o saque.
@@ -27,14 +27,14 @@ Criar métodos públicos para:
 - Exibir o saldo atual apenas usando o método getter.
 - Continuar executando até o usuário escolher a opção de sair.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Adicionar uma funcionalidade de limite de crédito para permitir saques mesmo com saldo insuficiente, até um valor pré-definido.
 - Implementar uma verificação para impedir depósitos negativos.
 - Criar um histórico de transações para registrar depósitos e saques.
 - Permitir a criação de múltiplas contas bancárias e gerenciá-las em uma lista.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE CONTA BANCÁRIA =====

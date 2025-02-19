@@ -2,19 +2,19 @@
 
 ## 1) Analisador de Texto - Estatísticas de Frase
 
-#### Descrição:
+#### Descrição
 
 - Você deve criar um analisador de texto que processe uma frase fornecida pelo usuário e gere estatísticas úteis. 
 - O objetivo é praticar operações com strings, como concatenação, busca, substituição, contagem de caracteres e palavras, além de manipulação de maiúsculas e minúsculas.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve ser capaz de:
     - Receber uma frase digitada pelo usuário.
     - Realizar operações básicas de manipulação de strings.
     - Exibir estatísticas sobre o texto analisado.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar uma frase qualquer ao usuário.
 - Exibir o número total de caracteres da frase (incluindo espaços).
@@ -24,13 +24,13 @@
 - Verificar se uma palavra específica informada pelo usuário está presente na frase.
 - Substituir uma palavra específica da frase por outra, caso o usuário deseje.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Identificar e contar quantos caracteres são vogais na frase.
 - Inverter a frase e exibi-la ao contrário.
 - Exibir a frase com a primeira letra de cada palavra em maiúsculo (capitalização).
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Digite uma frase: A programação é uma habilidade poderosa.  

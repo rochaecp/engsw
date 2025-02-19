@@ -2,12 +2,12 @@
 
 ## 1) **Sistema de Gestão de Biblioteca**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar um sistema de biblioteca, permitindo o cadastro de livros, o empréstimo para usuários e o controle de devoluções. 
 - O objetivo é praticar o uso de classes, objetos, propriedades e métodos para modelar o comportamento dos livros e da biblioteca.
 
-#### Requisitos:
+#### Requisitos
 
 - Definir uma classe Livro com as seguintes propriedades:
     - Titulo (texto)
@@ -22,7 +22,7 @@
         - Realizar o empréstimo de um livro
         - Registrar a devolução de um livro
 
-#### O programa deve:
+#### O programa deve
 
 - Permitir o cadastro de novos livros, solicitando informações do usuário.
 - Listar todos os livros da biblioteca, indicando se estão disponíveis ou emprestados.
@@ -30,14 +30,14 @@
 - Registrar a devolução de um livro, tornando-o disponível novamente.
 - Continuar executando até o usuário escolher a opção de sair do sistema.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Implementar uma classe Usuario para associar um usuário ao empréstimo de um livro.
 - Limitar o número de livros que um usuário pode emprestar simultaneamente.
 - Criar um método para pesquisar livros pelo título ou autor.
 - Adicionar uma funcionalidade para ordenar os livros por ano de publicação ou título.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE BIBLIOTECA =====

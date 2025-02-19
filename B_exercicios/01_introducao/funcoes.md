@@ -2,12 +2,12 @@
 
 #### 1) **Calculadora de Operações Matemáticas com Funções**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que funcione como uma calculadora simples, permitindo ao usuário realizar operações matemáticas básicas. 
 - Cada operação (adição, subtração, multiplicação, divisão) deve ser implementada como uma função separada.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve definir funções para as seguintes operações:
     - Adição
@@ -17,7 +17,7 @@
 - Deve ser possível chamar cada função de forma independente, dependendo da operação escolhida pelo - usuário.
 - O programa deve tratar erros, como a divisão por zero.
 
-#### O programa deve:
+#### O programa deve
 
 - Exibir um menu com as opções de operações matemáticas.
 - Solicitar ao usuário que escolha uma operação (ex: 1 para adição, 2 para subtração).
@@ -26,7 +26,7 @@
 - Exibir o resultado da operação.
 - Permitir que o usuário realize novas operações sem encerrar o programa (loop de repetição).
 
-#### Bônus (opcional):
+#### Bônus
 
 - Adicionar operações matemáticas avançadas, como:
     - Exponenciação (potência)
@@ -36,7 +36,7 @@
 - Implementar um histórico de operações, que armazene os últimos cálculos realizados.
 - Permitir que o usuário encerre o programa escolhendo uma opção no menu.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== Calculadora Simples =====

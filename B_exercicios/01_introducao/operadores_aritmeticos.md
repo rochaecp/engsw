@@ -30,7 +30,7 @@
     - Fórmula: custo total = quantidade de combustível * preço por litro
 - Exibir um relatório final com todos os resultados calculados.
 
-#### Bônus (opcional)
+#### Bônus
 
 - Permitir que o usuário calcule o desempenho de múltiplas viagens, mostrando um resumo final com a soma total da distância percorrida, combustível consumido e custo total.
 - Adicionar uma verificação para garantir que o odômetro final seja maior que o inicial.

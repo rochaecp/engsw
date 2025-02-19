@@ -22,7 +22,7 @@
 - Calcular o salário líquido, subtraindo todos os impostos do salário bruto.
 - Exibir um relatório detalhado com o salário bruto, cada desconto e o salário líquido.
 
-#### Bônus (opcional)
+#### Bônus
 
 - Permita calcular o salário líquido para mais de um funcionário usando um laço de repetição.
 - Exiba o total de impostos arrecadados ao final do programa.

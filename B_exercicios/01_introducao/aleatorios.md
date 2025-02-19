@@ -2,19 +2,19 @@
 
 ## 1) **Jogo de Adivinhação com Números Aleatórios**
 
-#### Descrição:
+#### Descrição
 
 - Crie um jogo de adivinhação onde o programa gera um número aleatório dentro de um intervalo definido pelo usuário, e o objetivo é que o jogador tente adivinhar o número correto. 
 - O programa dará dicas se o número informado é maior ou menor do que o número gerado, até que o jogador acerte.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve utilizar uma função de geração de números aleatórios da linguagem escolhida.
 - O intervalo dos números aleatórios deve ser definido pelo próprio usuário (ex: de 1 a 100).
 - O programa deve contar o número de tentativas feitas pelo jogador.
 - O programa deve verificar se o valor inserido é um número válido.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar ao usuário que informe o intervalo mínimo e máximo para o número aleatório.
 - Gerar um número aleatório dentro do intervalo definido.
@@ -25,14 +25,14 @@
     - Correto, encerrando o jogo.
 - Exibir o número total de tentativas realizadas até acertar.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Implementar um modo difícil, onde o jogador tem um número limitado de tentativas.
 - Criar um ranking de melhores pontuações, registrando o menor número de tentativas em jogos anteriores.
 - Adicionar uma opção de jogar novamente sem reiniciar o programa.
 - Permitir que o jogador escolha entre adivinhar números inteiros ou números decimais.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== Jogo de Adivinhação =====

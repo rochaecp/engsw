@@ -2,12 +2,12 @@
 
 ## 1) **Sistema de Pagamentos com Polimorfismo**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que simule um sistema de processamento de pagamentos utilizando o conceito de polimorfismo. 
 - O objetivo é demonstrar como diferentes métodos de pagamento podem compartilhar a mesma interface ou classe base, mas implementar comportamentos distintos.
 
-#### Requisitos:
+#### Requisitos
 
 - Criar uma classe base chamada Pagamento com um método chamado:
     - ProcessarPagamento(valor) – que representa o processo genérico de pagamento.
@@ -20,20 +20,20 @@
         - Implementar o método ProcessarPagamento para exibir: "Pagamento de [valor] realizado via Pix."
 - O programa deve permitir o uso de polimorfismo, ou seja, o mesmo método ProcessarPagamento será chamado de forma genérica para diferentes tipos de pagamento.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar ao usuário o tipo de pagamento (cartão de crédito, boleto ou Pix).
 - Solicitar o valor do pagamento.
 - Criar uma instância da classe correspondente ao método de pagamento.
 - Chamar o método ProcessarPagamento de forma polimórfica.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Implementar uma interface IPagamento (ou equivalente na linguagem escolhida) e fazer com que todas as classes de pagamento implementem essa interface.
 - Adicionar um método ValidarPagamento() para verificar, por exemplo, se o valor é positivo antes de processar o pagamento.
 - Criar uma opção para o usuário visualizar um relatório de todos os pagamentos realizados durante a execução do programa.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== SISTEMA DE PAGAMENTOS =====

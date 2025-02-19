@@ -2,12 +2,12 @@
 
 ## 1) **Conversor de Tipos - Calculadora de Compras**
 
-#### Descrição:
+#### Descrição
 
 - Você foi contratado para desenvolver uma calculadora de compras que realiza operações matemáticas simples, mas que envolve diferentes tipos de dados. 
 - O objetivo é trabalhar com operações de casting (conversão de tipos) para garantir que os cálculos sejam feitos corretamente.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve solicitar:
     - O nome do produto.
@@ -15,14 +15,14 @@
     - A quantidade do produto desejada (como número inteiro).
 - O programa deve realizar as operações de cálculo aplicando casting sempre que necessário.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar as informações do produto: nome, preço unitário e quantidade.
 - Calcular o valor total da compra, multiplicando o preço unitário pela quantidade.
 - Converter o valor total para um inteiro, descartando os centavos, e exibir o resultado.
 - Exibir o valor original com centavos e o valor convertido (casting para inteiro).
 
-#### Bônus (opcional):
+#### Bônus
 
 - Adicionar uma funcionalidade para calcular um desconto percentual informado pelo usuário.
     - O valor do desconto deve ser convertido de inteiro para decimal para o cálculo correto.

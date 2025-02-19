@@ -2,20 +2,20 @@
 
 ## 1) **Gerenciador de Contatos Telefônicos**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar uma agenda de contatos telefônicos usando um dicionário. 
 - O objetivo é permitir que o usuário adicione, busque, atualize e remova contatos. 
 - Cada contato será representado por um nome (chave) e um número de telefone (valor).
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve utilizar um dicionário para armazenar os contatos, onde:
 - A chave será o nome do contato (único).
 - O valor será o número de telefone associado a esse nome.
 - O programa deve oferecer um menu interativo para o usuário escolher as opções desejadas.
 
-#### O programa deve:
+#### O programa deve
 
 - Adicionar um novo contato, solicitando o nome e o número de telefone.
 - Listar todos os contatos existentes, exibindo o nome e o número de telefone.
@@ -24,14 +24,14 @@
 - Remover um contato da agenda.
 - Continuar funcionando até o usuário escolher a opção de sair do programa.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Permitir que o usuário adicione múltiplos números de telefone para o mesmo contato.
 - Implementar uma pesquisa parcial, onde o usuário digita parte do nome e o programa lista todos os contatos que correspondem.
 - Exibir os contatos em ordem alfabética ao listar.
 - Salvar a agenda em um arquivo de texto e permitir carregá-la ao iniciar o programa.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== AGENDA DE CONTATOS =====

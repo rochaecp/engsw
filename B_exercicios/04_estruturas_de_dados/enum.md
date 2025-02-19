@@ -2,7 +2,7 @@
 
 ## 1) **Sistema de Gerenciamento de Tarefas com Enums**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar uma lista de tarefas, onde cada tarefa terá um título, uma descrição e um status. 
 - O status da tarefa será representado usando um Enum, com os seguintes estados possíveis:
@@ -11,13 +11,13 @@
     - Concluída
     - Cancelada
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve utilizar um Enum para definir os diferentes estados de uma tarefa.
 - O Enum deve ser usado para controlar e exibir o status de cada tarefa.
 - O programa deve permitir que o usuário adicione, visualize e atualize o status das tarefas.
 
-#### O programa deve:
+#### O programa deve
 
 - Adicionar uma nova tarefa, solicitando o título e a descrição. O status inicial deve ser "Pendente".
 - Listar todas as tarefas, mostrando o título, a descrição e o status atual.
@@ -25,14 +25,14 @@
 - Filtrar tarefas por status, exibindo apenas as tarefas com o status selecionado.
 - Continuar funcionando até o usuário escolher a opção de sair do programa.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Implementar uma função de priorização das tarefas, usando outro Enum para níveis de prioridade (Baixa, Média, Alta).
 - Permitir que o usuário edite o título ou a descrição de uma tarefa existente.
 - Exibir um resumo com a quantidade de tarefas em cada status.
 - Implementar a funcionalidade de remover uma tarefa da lista.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== GERENCIADOR DE TAREFAS =====

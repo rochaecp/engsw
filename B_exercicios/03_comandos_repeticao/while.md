@@ -2,12 +2,12 @@
 
 ## 1) **Jogo de Adivinhação de Números**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que implemente um jogo de adivinhação. 
 - O computador escolherá um número aleatório entre 1 e 100, e o usuário deverá tentar adivinhar esse número. O programa usará o comando while para continuar solicitando palpites até o usuário acertar.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve gerar um número aleatório entre 1 e 100.
 - O usuário deve inserir palpites até adivinhar o número corretamente.
@@ -15,7 +15,7 @@
 - O programa deve informar se o palpite do usuário está "muito alto", "muito baixo" ou "correto".
 - O programa deve contar o número de tentativas feitas pelo usuário.
 
-#### O programa deve:
+#### O programa deve
 
 - Gerar um número aleatório entre 1 e 100.
 - Pedir ao usuário que insira um palpite.
@@ -26,14 +26,14 @@
 - Continuar pedindo palpites até o número correto ser adivinhado.
 - Mostrar o número total de tentativas ao final.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Limitar o número de tentativas (por exemplo, máximo de 10 tentativas).
 - Permitir o usuário escolher o intervalo do número (por exemplo, entre 1 e 500).
 - Adicionar um modo "difícil", onde o programa não dá dicas se o número está alto ou baixo.
 - Exibir uma mensagem personalizada com base no número de tentativas (por exemplo, "Você é um gênio!" se acertar em menos de 5 tentativas).
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Adivinhe o número entre 1 e 100:

@@ -2,13 +2,13 @@
 
 ## 1) **Gerenciador de Lista de Tarefas (To-Do List)**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar uma lista de tarefas usando uma lista dinâmica. 
 - O objetivo é permitir que o usuário adicione, remova, marque como concluída, e liste todas as tarefas. 
 - Cada tarefa terá um título e um status (pendente ou concluída).
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve utilizar uma lista para armazenar as tarefas.
 - Cada tarefa deve conter:
@@ -16,7 +16,7 @@
     - Um status que indica se está pendente ou concluída.
 - O programa deve oferecer um menu de opções para o usuário interagir.
 
-#### O programa deve:
+#### O programa deve
 
 - Permitir que o usuário adicione novas tarefas à lista.
 - Permitir que o usuário liste todas as tarefas, mostrando o status de cada uma.
@@ -24,14 +24,14 @@
 - Permitir que o usuário remova uma tarefa da lista.
 - Continuar funcionando até que o usuário escolha a opção de sair do programa.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Permitir que o usuário edite o título de uma tarefa existente.
 - Implementar uma função de pesquisa para encontrar uma tarefa pelo nome.
 - Adicionar uma opção para listar somente as tarefas pendentes ou concluídas.
 - Exibir a porcentagem de tarefas concluídas em relação ao total.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== MENU =====

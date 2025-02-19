@@ -2,12 +2,12 @@
 
 ## 1) **Sistema de Verificação de Elegibilidade para Votação**
 
-#### Descrição:
+#### Descrição
 
 - Você foi contratado para desenvolver um programa que verifica se uma pessoa está apta a votar em uma eleição. 
 - O programa utilizará operadores relacionais para comparar a idade do usuário com o critério mínimo exigido para votar, além de verificar outras condições de elegibilidade.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve solicitar ao usuário as seguintes informações:
     - Idade da pessoa (em anos).
@@ -21,7 +21,7 @@
     - `>=` (maior ou igual a)
     - `<=` (menor ou igual a)
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar ao usuário:
     - Idade da pessoa.
@@ -33,14 +33,14 @@
     - Obrigatório: Ter título de eleitor ativo.
 - Exibir uma mensagem informando se a pessoa está apta a votar ou não está apta a votar, explicando o motivo da inelegibilidade, se for o caso.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Verificar se o voto é obrigatório ou facultativo:
     - Voto facultativo: 16-17 anos ou acima de 70 anos.
     - Voto obrigatório: 18 a 70 anos.
 - Permitir verificar a elegibilidade de várias pessoas em sequência até o usuário decidir encerrar o programa.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Informe sua idade: 17  

@@ -2,19 +2,19 @@
 
 ## 1) **Filtro de Números Pares**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa que leia uma sequência de números inteiros e exiba apenas os números pares. 
 - O programa deve usar o comando continue para pular a exibição dos números ímpares.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve aceitar uma lista de números fornecida pelo usuário.
 - O comando continue deve ser usado para ignorar os números ímpares.
 - O programa deve funcionar com qualquer quantidade de números.
 - O programa deve ser eficiente, processando cada número uma única vez.
 
-#### O programa deve:
+#### O programa deve
 
 - Solicitar ao usuário que insira uma sequência de números separados por espaço.
 - Ler cada número da sequência.
@@ -22,14 +22,14 @@
     - Se for ímpar, usar o comando continue para pular para o próximo número.
 - Exibir apenas os números pares.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Permitir que o usuário decida se quer filtrar pares ou ímpares.
 - Exibir a quantidade de números pares encontrados ao final da execução.
 - Implementar uma verificação para que o programa continue pedindo entradas até que o usuário digite "sair".
 - Exibir uma mensagem informando que o número foi ignorado se for ímpar (antes do continue).
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 Digite uma sequência de números inteiros (separados por espaço): 

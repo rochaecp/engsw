@@ -2,18 +2,18 @@
 
 ## 1) **Cadastro de Produtos com Tuplas**
 
-#### Descrição:
+#### Descrição
 
 - Crie um programa para gerenciar o cadastro de produtos em um estoque simples utilizando tuplas para armazenar informações de cada produto. 
 - Cada produto terá as seguintes informações: nome, preço e quantidade em estoque.
 
-#### Requisitos:
+#### Requisitos
 
 - O programa deve utilizar tuplas para armazenar as informações de cada produto.
 - Os produtos serão armazenados em uma lista ou outra estrutura que permita gerenciar vários produtos.
 - O programa deve oferecer um menu interativo com opções para o usuário.
 
-#### O programa deve:
+#### O programa deve
 
 - Adicionar um novo produto, solicitando o nome, o preço e a quantidade em estoque.
 - Listar todos os produtos, exibindo o nome, o preço e a quantidade.
@@ -21,14 +21,14 @@
 - Calcular o valor total em estoque de todos os produtos (preço * quantidade).
 - Continuar funcionando até o usuário escolher a opção de sair do programa.
 
-#### Bônus (opcional):
+#### Bônus
 
 - Permitir a atualização da quantidade de um produto já cadastrado.
 - Calcular o produto mais caro e o mais barato do estoque.
 - Exibir os produtos em ordem alfabética ou por ordem de preço.
 - Implementar uma função de desconto, permitindo aplicar um desconto percentual a um produto específico.
 
-#### Exemplo de Entrada Esperada:
+#### Exemplo de Entrada Esperada
 
 ~~~yaml
 ===== GERENCIADOR DE ESTOQUE =====
