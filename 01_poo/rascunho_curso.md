@@ -1,44 +1,7 @@
 # Rascunho Curso OO
 
-#### Instanciação de Objetos
-
-- A instanciação de objetos é o processo de criação de um novo objeto a partir de uma classe. 
-- Esse processo é essencial na programação orientada a objetos, pois permite que as classes se tornem entidades concretas que podem ser manipuladas dentro de um programa.
-
-- Relação entre Classe e Objeto
-    - A classe é um modelo ou estrutura que define as características e comportamentos de um objeto.
-    - O objeto é uma instância dessa classe, ou seja, uma entidade real que ocupa espaço na memória e pode ser manipulada pelo programa.
-- Processo de Instanciação
-    - Para criar um objeto, é necessário instanciá-lo a partir de uma classe.
-    - A instanciação geralmente envolve o uso de um construtor, que é um método especial responsável por inicializar o objeto.
-- Estados dos Objetos
-    - Após a instanciação, o objeto recebe valores iniciais para seus atributos, podendo ser definidos por padrões da classe ou fornecidos no momento da criação.
-    - Durante a execução do programa, os atributos do objeto podem ser alterados por métodos, modificando seu estado.
-- Importância da Instanciação
-    - Permite a reutilização do código, pois uma única classe pode ser usada para criar múltiplos objetos com características distintas.
-    - Garante a modularidade, pois cada objeto pode ser tratado independentemente dentro do programa.
-    - Facilita a organização do código, tornando-o mais estruturado e fácil de manter.
-- O uso correto da instanciação de objetos é fundamental para a construção de programas bem estruturados e eficientes na programação orientada a objetos.
-
-#### Mensagens e Comunicação entre Objetos
-
-- Na programação orientada a objetos, os objetos interagem entre si por meio de mensagens. 
-- Essa comunicação é essencial para que um sistema funcione de maneira organizada e modular, permitindo que diferentes partes do código trabalhem juntas de forma eficiente.
-- O que são Mensagens?
-    - Mensagens são solicitações enviadas de um objeto para outro para executar uma ação.
-    - Geralmente, uma mensagem corresponde à chamada de um método de um objeto.
-- Como os Objetos se Comunicaram?
-    - A comunicação entre objetos ocorre através da invocação de métodos.
-    - Um objeto pode chamar um método de outro objeto para acessar suas funcionalidades.
-    - Os métodos podem receber parâmetros e retornar valores para fornecer resultados específicos.
-- Tipos de Comunicação entre Objetos
-    - Comunicação Direta: Um objeto tem uma referência direta para outro e pode chamar seus métodos diretamente.
-    - Comunicação Indireta: O objeto não conhece diretamente outro objeto, mas interage por meio de um intermediário, como um evento, interface ou padrão de projeto.
-- Importância da Comunicação entre Objetos
-    - Permite a modularização do sistema, tornando o código mais reutilizável e organizado.
-    - Reduz o acoplamento entre diferentes partes do programa, facilitando a manutenção.
-    - Proporciona maior flexibilidade para a construção de sistemas escaláveis e extensíveis.
-- A comunicação eficiente entre objetos é fundamental para a estruturação de um sistema bem projetado, garantindo que as interações ocorram de maneira clara e eficiente dentro do paradigma orientado a objetos.
+- Tópicos importantes:
+    - Relacionamentos entre classes
 
 ## **Aula 3: Modelagem com Objetos**
 
