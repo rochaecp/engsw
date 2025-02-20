@@ -39,6 +39,14 @@
     - Voto facultativo: 16-17 anos ou acima de 70 anos.
     - Voto obrigatório: 18 a 70 anos.
 - Permitir verificar a elegibilidade de várias pessoas em sequência até o usuário decidir encerrar o programa.
+- Criar uma interface gráfica simples para a solução:
+    - Criar um formulário contendo:
+        - Caixas de entrada para idade e nome.
+        - Grupo de botões de opção (RadioButton) para as perguntas:
+            - Cidadão do país? Sim / Não
+            - Possui título de eleitor ativo? Sim / Não
+        - Exibir o resultado da verificação.
+    - Implementar a lógica da verificação dentro do evento de clique do botão.
 
 #### Exemplo de Entrada Esperada
 
