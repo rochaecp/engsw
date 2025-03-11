@@ -1,65 +1,5 @@
 # Rascunho Curso OO
 
-- Tópicos importantes:
-    - Relacionamentos entre classes
-
-## **Aula 3: Modelagem com Objetos**
-
-#### Identificação de classes e objetos em um domínio
-
-- Para modelar um sistema orientado a objetos, é essencial identificar corretamente as classes e os objetos que o compõem. 
-- Essa etapa inicial permite representar o problema de forma clara e estruturada.
-- O que é um Domínio?
-    - O domínio de um sistema corresponde ao contexto do problema que se deseja modelar.
-    - Inclui os elementos principais, regras de negócio e interações envolvidas.
-- Como Identificar Classes?
-    - As classes representam conceitos do mundo real que possuem características comuns.
-    - Para identificá-las, é útil analisar substantivos em uma descrição do problema, pois costumam indicar possíveis classes.
-    - Devem ser escolhidas com base na necessidade de organização e reutilização do código.
-- Como Identificar Objetos?
-    - Os objetos são instâncias concretas das classes identificadas.
-    - Cada objeto representa uma entidade específica dentro do domínio.
-    - A diferença entre classes e objetos é que a classe define a estrutura, enquanto o objeto representa um elemento real no sistema.
-- Critérios para Definição de Classes e Objetos
-    - Relevância: A classe deve ser essencial para a modelagem do sistema.
-    - Generalização: Uma classe deve representar um grupo de objetos semelhantes.
-    - Autonomia: A classe deve ser capaz de conter atributos e métodos que façam sentido dentro do domínio.
-- A identificação correta de classes e objetos é fundamental para um projeto bem estruturado, garantindo um sistema organizado, reutilizável e fácil de manter.
-
-#### Relação entre classes e entidades do mundo real  
-
-- A programação orientada a objetos busca representar digitalmente elementos do mundo real. 
-- Para isso, é essencial entender a relação entre classes e as entidades do domínio do problema.
-- Correspondência entre Classes e Entidades
-    - Uma classe é uma abstração de um conjunto de objetos com características e comportamentos semelhantes.
-    - As entidades do mundo real servem de base para a definição dessas classes.
-    - Exemplo: Em um sistema de biblioteca, os livros, leitores e funcionários podem ser representados como classes.
-- Transformação de Entidades em Classes
-    - Atributos: Representam as propriedades da entidade (nome, idade, cor, peso).
-    - Métodos: Definem os comportamentos e ações possíveis para a entidade.
-    - Relações: As interações entre as entidades ajudam a definir associações, heranças e dependências.
-- Importância da Modelagem Correta
-    - Garantir que as classes representem fielmente as entidades evita redundâncias e inconsistências.
-    - Modelar classes de forma eficiente facilita a reutilização de código e a manutenção do sistema.
-- O processo de identificação das relações entre classes e entidades do mundo real é fundamental para criar um sistema coeso, organizado e fácil de expandir.
-
-#### Abstração e simplificação de modelos
-
-- A abstração é um dos princípios fundamentais da orientação a objetos e tem como objetivo representar um sistema de forma simplificada, destacando apenas as características essenciais e ignorando detalhes desnecessários.
--  Conceito de Abstração
-    - Foca nas características e comportamentos relevantes de um objeto.
-    - Omite detalhes internos para facilitar o entendimento e a implementação.
-    - Permite modelar sistemas de forma organizada e eficiente.
-- Importância da Abstração na Modelagem
-    - Facilita a criação de classes mais genéricas e reutilizáveis.
-    - Reduz a complexidade do código ao eliminar informações irrelevantes.
-    - Permite dividir o problema em partes menores e mais gerenciáveis.
-- Como Aplicar a Abstração na Modelagem
-    - Identificar os elementos essenciais de um domínio e definir suas classes.
-    - Evitar incluir detalhes que não influenciam diretamente no funcionamento do sistema.
-    - Criar hierarquias de classes para organizar melhor os conceitos abstratos.
-- A abstração permite construir sistemas mais flexíveis e escaláveis, tornando o desenvolvimento mais organizado e eficiente.
-
 ## **Aula 4: Encapsulamento**
 
 #### Definição e importância do encapsulamento 
@@ -385,33 +325,6 @@
 - Inicializadores: Definem valores iniciais para variáveis de instância.
 - Blocos Estáticos: Executam código de inicialização uma única vez, quando a classe é carregada pela primeira vez. São usados para inicializar membros estáticos.
 
-## **Aula 9: Composição e Agregação**
-
-#### Diferença entre associação, agregação e composição  
-
-- Associação: Relacionamento genérico entre objetos, sem indicar dependência. Exemplo: um professor associado a vários cursos.
-- Agregação: Um tipo de associação que indica uma relação de "todo-parte", mas onde as partes podem existir independentemente do todo. Exemplo: uma universidade e seus departamentos.
-- Composição: Uma forma mais forte de agregação onde as partes dependem do todo para existir. Exemplo: uma casa e seus cômodos. Se a casa for destruída, os cômodos também deixam de existir.
-
-#### Relação entre objetos e dependências  
-
-- Refere-se à forma como os objetos interagem e dependem uns dos outros para funcionar. 
-- Dependências bem gerenciadas aumentam a modularidade e a flexibilidade do código.
-
-#### Ciclo de vida dos objetos
-
-- Inclui todas as fases do objeto, desde sua criação (instanciação), uso, até sua destruição ou liberação de recursos. 
-- O gerenciamento adequado do ciclo de vida é crucial para otimizar o desempenho do sistema.
-
-#### Modelagem de dependências entre objetos  
-
-- Envolve o planejamento de como os objetos se relacionam, considerando fatores como acoplamento e coesão. 
-- O objetivo é reduzir dependências rígidas, facilitando a manutenção e evolução do software.
-
-#### Impacto dessas relações na arquitetura de sistemas  
-
-- Relações mal planejadas podem levar a um código difícil de manter, testar e escalar. 
-- Uma boa modelagem melhora a modularidade, a reutilização de código e a flexibilidade do sistema.
 
 ## **Aula 10: Métodos e Sobrecarga**  
 
@@ -625,3 +538,60 @@
 
 - A programação funcional enfatiza funções puras e imutabilidade, enquanto a OOP foca em objetos e estados. 
 - Muitas linguagens modernas permitem a combinação dos dois paradigmas, aproveitando o melhor de cada abordagem para desenvolver sistemas mais flexíveis e robustos.
+
+## **Aula 3: Modelagem com Objetos**
+
+#### Identificação de classes e objetos em um domínio
+
+- Para modelar um sistema orientado a objetos, é essencial identificar corretamente as classes e os objetos que o compõem. 
+- Essa etapa inicial permite representar o problema de forma clara e estruturada.
+- O que é um Domínio?
+    - O domínio de um sistema corresponde ao contexto do problema que se deseja modelar.
+    - Inclui os elementos principais, regras de negócio e interações envolvidas.
+- Como Identificar Classes?
+    - As classes representam conceitos do mundo real que possuem características comuns.
+    - Para identificá-las, é útil analisar substantivos em uma descrição do problema, pois costumam indicar possíveis classes.
+    - Devem ser escolhidas com base na necessidade de organização e reutilização do código.
+- Como Identificar Objetos?
+    - Os objetos são instâncias concretas das classes identificadas.
+    - Cada objeto representa uma entidade específica dentro do domínio.
+    - A diferença entre classes e objetos é que a classe define a estrutura, enquanto o objeto representa um elemento real no sistema.
+- Critérios para Definição de Classes e Objetos
+    - Relevância: A classe deve ser essencial para a modelagem do sistema.
+    - Generalização: Uma classe deve representar um grupo de objetos semelhantes.
+    - Autonomia: A classe deve ser capaz de conter atributos e métodos que façam sentido dentro do domínio.
+- A identificação correta de classes e objetos é fundamental para um projeto bem estruturado, garantindo um sistema organizado, reutilizável e fácil de manter.
+
+#### Relação entre classes e entidades do mundo real  
+
+- A programação orientada a objetos busca representar digitalmente elementos do mundo real. 
+- Para isso, é essencial entender a relação entre classes e as entidades do domínio do problema.
+- Correspondência entre Classes e Entidades
+    - Uma classe é uma abstração de um conjunto de objetos com características e comportamentos semelhantes.
+    - As entidades do mundo real servem de base para a definição dessas classes.
+    - Exemplo: Em um sistema de biblioteca, os livros, leitores e funcionários podem ser representados como classes.
+- Transformação de Entidades em Classes
+    - Atributos: Representam as propriedades da entidade (nome, idade, cor, peso).
+    - Métodos: Definem os comportamentos e ações possíveis para a entidade.
+    - Relações: As interações entre as entidades ajudam a definir associações, heranças e dependências.
+- Importância da Modelagem Correta
+    - Garantir que as classes representem fielmente as entidades evita redundâncias e inconsistências.
+    - Modelar classes de forma eficiente facilita a reutilização de código e a manutenção do sistema.
+- O processo de identificação das relações entre classes e entidades do mundo real é fundamental para criar um sistema coeso, organizado e fácil de expandir.
+
+#### Abstração e simplificação de modelos
+
+- A abstração é um dos princípios fundamentais da orientação a objetos e tem como objetivo representar um sistema de forma simplificada, destacando apenas as características essenciais e ignorando detalhes desnecessários.
+-  Conceito de Abstração
+    - Foca nas características e comportamentos relevantes de um objeto.
+    - Omite detalhes internos para facilitar o entendimento e a implementação.
+    - Permite modelar sistemas de forma organizada e eficiente.
+- Importância da Abstração na Modelagem
+    - Facilita a criação de classes mais genéricas e reutilizáveis.
+    - Reduz a complexidade do código ao eliminar informações irrelevantes.
+    - Permite dividir o problema em partes menores e mais gerenciáveis.
+- Como Aplicar a Abstração na Modelagem
+    - Identificar os elementos essenciais de um domínio e definir suas classes.
+    - Evitar incluir detalhes que não influenciam diretamente no funcionamento do sistema.
+    - Criar hierarquias de classes para organizar melhor os conceitos abstratos.
+- A abstração permite construir sistemas mais flexíveis e escaláveis, tornando o desenvolvimento mais organizado e eficiente.
