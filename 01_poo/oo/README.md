@@ -1,3 +1,3 @@
 ## Orientação a Objetos
 
-![oo_canvas](imagens/oo_canvas.png)
+![oo_canvas](oo_canvas.png)
