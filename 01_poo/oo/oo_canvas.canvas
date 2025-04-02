@@ -11,7 +11,7 @@
 		{"id":"a25123228a14014c","type":"text","text":"Orientação a Objetos","x":-100,"y":-30,"width":250,"height":60,"color":"1"},
 		{"id":"8cd02099facb61c5","type":"text","text":"Pilares","x":-360,"y":-30,"width":120,"height":60},
 		{"id":"5fed53d58678e2ea","type":"text","text":"Conceitos","x":280,"y":-30,"width":250,"height":60},
-		{"id":"f59a5e362037ba60","x":1120,"y":-270,"width":250,"height":60,"type":"text","text":"Exemplos"},
+		{"id":"f59a5e362037ba60","type":"text","text":"Exemplos","x":1120,"y":-270,"width":250,"height":60},
 		{"id":"f60b151f4169f9d6","type":"file","file":"resumos/oo/exemplos/python.md","x":1640,"y":-580,"width":312,"height":128},
 		{"id":"71a053037e3d4e65","type":"file","file":"resumos/oo/exemplos/csharp.md","x":1640,"y":-410,"width":340,"height":170},
 		{"id":"70050bf4bf416f1e","type":"file","file":"resumos/oo/imagens/programador_feliz.jpg","x":2900,"y":-98,"width":250,"height":257}
