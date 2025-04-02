@@ -237,11 +237,6 @@
 
 ## **Aula 6: Herança**
 
-#### Conceito de herança e reutilização de código  
-
-- Herança é um mecanismo da programação orientada a objetos que permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse). 
-- Isso promove a reutilização de código, evitando a necessidade de reescrever funcionalidades comuns.
-
 #### Relações entre superclasses e subclasses  
 
 - Superclasse (Classe Base): Define comportamentos e características genéricas.
@@ -595,3 +590,5 @@
     - Evitar incluir detalhes que não influenciam diretamente no funcionamento do sistema.
     - Criar hierarquias de classes para organizar melhor os conceitos abstratos.
 - A abstração permite construir sistemas mais flexíveis e escaláveis, tornando o desenvolvimento mais organizado e eficiente.
+
+![mapa mental OO](mapas_mentais/mapa_mental.drawio.png)
