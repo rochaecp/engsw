@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"3abad4beba55076f","type":"text","text":"Abstração","x":-805,"y":-220,"width":250,"height":60},
+		{"id":"6375b14a7d963ea4","type":"text","text":"Herança","x":-805,"y":-90,"width":250,"height":60},
+		{"id":"3e97c32b1e7fe70c","type":"text","text":"Polimorfismo","x":-805,"y":30,"width":250,"height":60},
+		{"id":"41e154dc98957222","type":"text","text":"Encapsulamento","x":-805,"y":160,"width":250,"height":60},
+		{"id":"dac95f8bad44d147","type":"text","text":"Classe","x":700,"y":-210,"width":250,"height":60},
+		{"id":"4a9bd97cbe2d5eb9","type":"text","text":"Objeto","x":700,"y":-90,"width":250,"height":60},
+		{"id":"06344f0a884ecdf9","type":"text","text":"Atributo","x":700,"y":30,"width":250,"height":60},
+		{"id":"d7e8d97a88d0d1a8","type":"text","text":"Método","x":700,"y":160,"width":250,"height":60},
+		{"id":"a25123228a14014c","type":"text","text":"Orientação a Objetos","x":-100,"y":-30,"width":250,"height":60,"color":"1"},
+		{"id":"8cd02099facb61c5","type":"text","text":"Pilares","x":-360,"y":-30,"width":120,"height":60},
+		{"id":"5fed53d58678e2ea","type":"text","text":"Conceitos","x":280,"y":-30,"width":250,"height":60},
+		{"id":"70050bf4bf416f1e","type":"file","file":"resumos/oo/imagens/programador_feliz.jpg","x":-100,"y":-477,"width":250,"height":257},
+		{"id":"71a053037e3d4e65","type":"file","file":"resumos/oo/exemplos/oo_classe.md","x":1100,"y":-380,"width":340,"height":170}
+	],
+	"edges":[
+		{"id":"09407c68fb35abb7","fromNode":"a25123228a14014c","fromSide":"left","toNode":"8cd02099facb61c5","toSide":"right"},
+		{"id":"ea4205277e5e8c90","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"3abad4beba55076f","toSide":"right"},
+		{"id":"83baaa598d1084a8","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"6375b14a7d963ea4","toSide":"right"},
+		{"id":"9b5b06553ba80139","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"3e97c32b1e7fe70c","toSide":"right"},
+		{"id":"8cb36bdd050ee290","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"41e154dc98957222","toSide":"right"},
+		{"id":"8da7b156d63fe778","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"dac95f8bad44d147","toSide":"left"},
+		{"id":"85a8d5db045686d6","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"4a9bd97cbe2d5eb9","toSide":"left"},
+		{"id":"2f82a681e7187c94","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"06344f0a884ecdf9","toSide":"left"},
+		{"id":"817a7753add54b76","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"d7e8d97a88d0d1a8","toSide":"left"},
+		{"id":"dfcca040b1614678","fromNode":"a25123228a14014c","fromSide":"right","toNode":"5fed53d58678e2ea","toSide":"left"},
+		{"id":"ac12dd47c906b732","fromNode":"dac95f8bad44d147","fromSide":"right","toNode":"71a053037e3d4e65","toSide":"left"},
+		{"id":"c2dab410b5f4f7ca","fromNode":"a25123228a14014c","fromSide":"top","toNode":"70050bf4bf416f1e","toSide":"bottom"}
+	]
+}
