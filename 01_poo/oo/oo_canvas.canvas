@@ -1,298 +1,198 @@
 {
-  "edges": [
-    {
-      "fromNode": "5fed53d58678e2ea",
-      "fromSide": "right",
-      "id": "8da7b156d63fe778",
-      "toNode": "dac95f8bad44d147",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "5fed53d58678e2ea",
-      "fromSide": "right",
-      "id": "85a8d5db045686d6",
-      "toNode": "4a9bd97cbe2d5eb9",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "5fed53d58678e2ea",
-      "fromSide": "right",
-      "id": "2f82a681e7187c94",
-      "toNode": "06344f0a884ecdf9",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "5fed53d58678e2ea",
-      "fromSide": "right",
-      "id": "817a7753add54b76",
-      "toNode": "d7e8d97a88d0d1a8",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a25123228a14014c",
-      "fromSide": "right",
-      "id": "dfcca040b1614678",
-      "toNode": "5fed53d58678e2ea",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "dac95f8bad44d147",
-      "fromSide": "right",
-      "id": "657da3fefc27880c",
-      "toNode": "f59a5e362037ba60",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "f59a5e362037ba60",
-      "fromSide": "right",
-      "id": "3eb8e37b7abbc28c",
-      "toNode": "71a053037e3d4e65",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "f59a5e362037ba60",
-      "fromSide": "right",
-      "id": "d8a765befb3c8f10",
-      "toNode": "f60b151f4169f9d6",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "06344f0a884ecdf9",
-      "fromSide": "right",
-      "id": "5b95f54c85eb9a20",
-      "toNode": "70050bf4bf416f1e",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a25123228a14014c",
-      "fromSide": "left",
-      "id": "09407c68fb35abb7",
-      "toNode": "8cd02099facb61c5",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "8cd02099facb61c5",
-      "fromSide": "left",
-      "id": "ea4205277e5e8c90",
-      "toNode": "3abad4beba55076f",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "8cd02099facb61c5",
-      "fromSide": "left",
-      "id": "83baaa598d1084a8",
-      "toNode": "6375b14a7d963ea4",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "8cd02099facb61c5",
-      "fromSide": "left",
-      "id": "9b5b06553ba80139",
-      "toNode": "3e97c32b1e7fe70c",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "8cd02099facb61c5",
-      "fromSide": "left",
-      "id": "8cb36bdd050ee290",
-      "toNode": "41e154dc98957222",
-      "toSide": "right"
-    },
-    {
-      "fromNode": "d7e8d97a88d0d1a8",
-      "fromSide": "right",
-      "id": "4c14229d333f35de",
-      "styleAttributes": {
-      },
-      "toNode": "1af53117e7ee7b1c",
-      "toSide": "left"
-    }
-  ],
-  "nodes": [
-    {
-      "height": 60,
-      "id": "3abad4beba55076f",
-      "styleAttributes": {
-      },
-      "text": "Abstração",
-      "type": "text",
-      "width": 144,
-      "x": -805,
-      "y": -220
-    },
-    {
-      "height": 60,
-      "id": "6375b14a7d963ea4",
-      "styleAttributes": {
-      },
-      "text": "Herança",
-      "type": "text",
-      "width": 130,
-      "x": -805,
-      "y": -90
-    },
-    {
-      "height": 60,
-      "id": "3e97c32b1e7fe70c",
-      "styleAttributes": {
-      },
-      "text": "Polimorfismo",
-      "type": "text",
-      "width": 169,
-      "x": -805,
-      "y": 30
-    },
-    {
-      "height": 60,
-      "id": "41e154dc98957222",
-      "styleAttributes": {
-      },
-      "text": "Encapsulamento",
-      "type": "text",
-      "width": 250,
-      "x": -805,
-      "y": 160
-    },
-    {
-      "height": 60,
-      "id": "dac95f8bad44d147",
-      "styleAttributes": {
-      },
-      "text": "Classe",
-      "type": "text",
-      "width": 114,
-      "x": 700,
-      "y": -210
-    },
-    {
-      "height": 60,
-      "id": "4a9bd97cbe2d5eb9",
-      "styleAttributes": {
-      },
-      "text": "Objeto",
-      "type": "text",
-      "width": 119,
-      "x": 700,
-      "y": -90
-    },
-    {
-      "height": 60,
-      "id": "06344f0a884ecdf9",
-      "styleAttributes": {
-      },
-      "text": "Atributo",
-      "type": "text",
-      "width": 130,
-      "x": 700,
-      "y": 30
-    },
-    {
-      "height": 60,
-      "id": "d7e8d97a88d0d1a8",
-      "styleAttributes": {
-      },
-      "text": "Método",
-      "type": "text",
-      "width": 128,
-      "x": 700,
-      "y": 160
-    },
-    {
-      "color": "1",
-      "height": 60,
-      "id": "a25123228a14014c",
-      "styleAttributes": {
-      },
-      "text": "Orientação a Objetos",
-      "type": "text",
-      "width": 233,
-      "x": -100,
-      "y": -30
-    },
-    {
-      "height": 60,
-      "id": "8cd02099facb61c5",
-      "styleAttributes": {
-      },
-      "text": "Pilares",
-      "type": "text",
-      "width": 116,
-      "x": -360,
-      "y": -30
-    },
-    {
-      "height": 60,
-      "id": "5fed53d58678e2ea",
-      "styleAttributes": {
-      },
-      "text": "Conceitos",
-      "type": "text",
-      "width": 143,
-      "x": 280,
-      "y": -30
-    },
-    {
-      "color": "3",
-      "file": "01_poo/oo/exemplos/python.md",
-      "height": 200,
-      "id": "71a053037e3d4e65",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "type": "file",
-      "width": 376,
-      "x": 1640,
-      "y": -440
-    },
-    {
-      "file": "01_poo/oo/imagens/programador_feliz.jpg",
-      "height": 318,
-      "id": "70050bf4bf416f1e",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 310,
-      "x": 2700,
-      "y": -90
-    },
-    {
-      "color": "3",
-      "file": "01_poo/oo/exemplos/csharp.md",
-      "height": 180,
-      "id": "f60b151f4169f9d6",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "type": "file",
-      "width": 356,
-      "x": 1604,
-      "y": -800
-    },
-    {
-      "height": 60,
-      "id": "f59a5e362037ba60",
-      "styleAttributes": {
-        "border": "invisible",
-        "shape": null
-      },
-      "text": "Exemplos",
-      "type": "text",
-      "width": 140,
-      "x": 1120,
-      "y": -270
-    },
-    {
-      "height": 140,
-      "id": "1af53117e7ee7b1c",
-      "styleAttributes": {
-        "shape": "database",
-        "textAlign": "right"
-      },
-      "text": "| Nome     | Idade | Endereço |\n| -------- | ----- | -------- |\n| Fulano   | 31    | av. abc  |\n| Beltrano | 33    | av. cde  |\n",
-      "type": "text",
-      "width": 320,
-      "x": 1060,
-      "y": 160
-    }
-  ]
+	"edges":[
+		{"id":"8da7b156d63fe778","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"dac95f8bad44d147","toSide":"left"},
+		{"id":"85a8d5db045686d6","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"4a9bd97cbe2d5eb9","toSide":"left"},
+		{"id":"2f82a681e7187c94","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"06344f0a884ecdf9","toSide":"left"},
+		{"id":"817a7753add54b76","fromNode":"5fed53d58678e2ea","fromSide":"right","toNode":"d7e8d97a88d0d1a8","toSide":"left"},
+		{"id":"dfcca040b1614678","fromNode":"a25123228a14014c","fromSide":"right","toNode":"5fed53d58678e2ea","toSide":"left"},
+		{"id":"657da3fefc27880c","fromNode":"dac95f8bad44d147","fromSide":"right","toNode":"f59a5e362037ba60","toSide":"left"},
+		{"id":"3eb8e37b7abbc28c","fromNode":"f59a5e362037ba60","fromSide":"right","toNode":"71a053037e3d4e65","toSide":"left"},
+		{"id":"d8a765befb3c8f10","fromNode":"f59a5e362037ba60","fromSide":"right","toNode":"f60b151f4169f9d6","toSide":"left"},
+		{"id":"5b95f54c85eb9a20","fromNode":"06344f0a884ecdf9","fromSide":"right","toNode":"70050bf4bf416f1e","toSide":"left"},
+		{"id":"09407c68fb35abb7","fromNode":"a25123228a14014c","fromSide":"left","toNode":"8cd02099facb61c5","toSide":"right","color":"6"},
+		{"id":"ea4205277e5e8c90","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"3abad4beba55076f","toSide":"right"},
+		{"id":"83baaa598d1084a8","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"6375b14a7d963ea4","toSide":"right"},
+		{"id":"9b5b06553ba80139","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"3e97c32b1e7fe70c","toSide":"right"},
+		{"id":"8cb36bdd050ee290","fromNode":"8cd02099facb61c5","fromSide":"left","toNode":"41e154dc98957222","toSide":"right"},
+		{
+			"id":"4c14229d333f35de",
+			"styleAttributes":{},
+			"fromNode":"d7e8d97a88d0d1a8",
+			"fromSide":"right",
+			"toNode":"1af53117e7ee7b1c",
+			"toSide":"left"
+		},
+		{"id":"1fc524b64b2d4341","fromNode":"a25123228a14014c","fromSide":"bottom","toNode":"bb842feedb210e3b","toSide":"top"},
+		{"id":"deff6d3fc76c3149","fromNode":"0d1e79bb0eb844db","fromSide":"left","toNode":"93eae6c3cad8c86b","toSide":"right"}
+	],
+	"nodes":[
+		{"id":"0d1e79bb0eb844db","type":"group","x":-285,"y":300,"width":215,"height":480,"label":"Pilares"},
+		{
+			"id":"dac95f8bad44d147",
+			"styleAttributes":{},
+			"text":"Classe",
+			"type":"text",
+			"x":1185,
+			"y":350,
+			"width":114,
+			"height":60
+		},
+		{
+			"id":"4a9bd97cbe2d5eb9",
+			"styleAttributes":{},
+			"text":"Objeto",
+			"type":"text",
+			"x":1185,
+			"y":470,
+			"width":119,
+			"height":60
+		},
+		{
+			"id":"06344f0a884ecdf9",
+			"styleAttributes":{},
+			"text":"Atributo",
+			"type":"text",
+			"x":1185,
+			"y":590,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"d7e8d97a88d0d1a8",
+			"styleAttributes":{},
+			"text":"Método",
+			"type":"text",
+			"x":1185,
+			"y":720,
+			"width":128,
+			"height":60
+		},
+		{
+			"id":"3abad4beba55076f",
+			"styleAttributes":{},
+			"text":"Abstração",
+			"type":"text",
+			"x":-234,
+			"y":320,
+			"width":144,
+			"height":60
+		},
+		{
+			"id":"6375b14a7d963ea4",
+			"styleAttributes":{},
+			"text":"Herança",
+			"type":"text",
+			"x":-220,
+			"y":450,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"3e97c32b1e7fe70c",
+			"styleAttributes":{},
+			"text":"Polimorfismo",
+			"type":"text",
+			"x":-259,
+			"y":570,
+			"width":169,
+			"height":60
+		},
+		{
+			"id":"41e154dc98957222",
+			"styleAttributes":{},
+			"text":"Encapsulamento",
+			"type":"text",
+			"x":-285,
+			"y":700,
+			"width":195,
+			"height":60
+		},
+		{"id":"93eae6c3cad8c86b","type":"link","url":"https://www.google.com","x":-1240,"y":230,"width":680,"height":330},
+		{
+			"id":"8cd02099facb61c5",
+			"styleAttributes":{},
+			"text":"Pilares",
+			"type":"text",
+			"x":125,
+			"y":530,
+			"width":116,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"a25123228a14014c",
+			"styleAttributes":{},
+			"text":"Orientação a Objetos",
+			"type":"text",
+			"x":385,
+			"y":530,
+			"width":233,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"5fed53d58678e2ea",
+			"styleAttributes":{},
+			"text":"Conceitos",
+			"type":"text",
+			"x":765,
+			"y":530,
+			"width":143,
+			"height":60
+		},
+		{
+			"file":"01_poo/oo/exemplos/python.md",
+			"id":"71a053037e3d4e65",
+			"styleAttributes":{"border":"invisible"},
+			"type":"file",
+			"x":2125,
+			"y":120,
+			"width":376,
+			"height":200
+		},
+		{
+			"file":"01_poo/oo/exemplos/csharp.md",
+			"id":"f60b151f4169f9d6",
+			"styleAttributes":{"border":"invisible"},
+			"type":"file",
+			"x":2089,
+			"y":-240,
+			"width":356,
+			"height":180
+		},
+		{
+			"id":"f59a5e362037ba60",
+			"styleAttributes":{
+				"border":"invisible",
+				"shape":null
+			},
+			"text":"Exemplos",
+			"type":"text",
+			"x":1605,
+			"y":290,
+			"width":140,
+			"height":60
+		},
+		{
+			"id":"1af53117e7ee7b1c",
+			"styleAttributes":{"shape":"database","textAlign":"right"},
+			"text":"| Nome     | Idade | Endereço |\n| -------- | ----- | -------- |\n| Fulano   | 31    | av. abc  |\n| Beltrano | 33    | av. cde  |\n",
+			"type":"text",
+			"x":1545,
+			"y":720,
+			"width":320,
+			"height":140
+		},
+		{
+			"file":"01_poo/oo/imagens/programador_feliz.jpg",
+			"id":"70050bf4bf416f1e",
+			"styleAttributes":{},
+			"type":"file",
+			"x":3185,
+			"y":470,
+			"width":310,
+			"height":318
+		},
+		{"id":"bb842feedb210e3b","type":"text","text":"Relacionamentos","x":402,"y":730,"width":200,"height":60}
+	]
 }
